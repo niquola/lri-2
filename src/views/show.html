@@ -1,0 +1,42 @@
+<h1>
+  {{profile.name}}
+  <a class="btn btn-default">
+    <b>v:</b> {{profile.version}}
+    <span class="badge">{{profile.status}}</span>
+    <span ng-if="profile.experimental" class="badge">experimental</span>
+  </a>
+  <small>{{proflie | date}}</small>
+</h1>
+<hr/>
+
+<p>{{profile.description}} <b>by {{profile.publisher}}</b></p>
+
+<br/>
+<br/>
+
+<table class="table">
+  <tr ng-repeat="ext in profile.extensionDefn">
+    <td>
+      {{ext.contextType}}
+    </td>
+    <td>
+      {{ext.context}}
+    </td>
+    <th>
+      {{ext.code}}
+    </th>
+    <td class="nowrap">
+      [{{ext.definition.min}}-{{ext.definition.max}}]
+    </td>
+    <td class="muted">
+      <p>{{ext.definition.formal}}</p>
+    </td>
+    <td>
+      <!-- <h4>binding:</h4> -->
+      <!-- <pre>{{ext.definition.binding | json}}</pre> -->
+      <!-- <pre>{{ext.definition | json}}</pre> -->
+    </td>
+  </tr>
+</table>
+
+<!-- <pre>{{profile | json}}</pre> -->

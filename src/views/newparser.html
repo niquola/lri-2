@@ -1,0 +1,40 @@
+<div class="row">
+  <div class="col-xs-2">
+    <input placeholder="id" class="form-control" ng-model="parser.id"/>
+  </div>
+  <div class="col-xs-8">
+    <input placeholder="title" class="form-control" ng-model="parser.title"/>
+  </div>
+  <div class="col-xs-2">
+    <button class="btn btn-success col-xs-12" ng-click="save()">Save</button>
+  </div>
+</div>
+
+<hr/>
+
+Parser code
+<br/>
+<pre>function(msg){
+<textarea class="form-control editor"
+  ng-model="parser.code">
+</textarea>
+} // do not forget return
+</pre>
+
+<hr/>
+
+<div class="row">
+  <div class="col-xs-6">
+    Copy HL7 v2 message here:
+    <br/>
+    <textarea class="form-control editor"
+      ng-model="parser.message">
+    </textarea>
+  </div>
+  <div class="col-xs-6">
+    Result:
+    <pre>
+    {{parser.message | evalParser:parser.code}}
+    </pre>
+  </div>
+</div>

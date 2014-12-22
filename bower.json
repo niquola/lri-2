@@ -1,0 +1,14 @@
+{
+  "name": "fhirplace-spa-ui",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "latest",
+    "fhir.js": "latest",
+    "angular": "latest",
+    "angular-cookies": "latest",
+    "angular-sanitize": "latest",
+    "angular-route": "latest",
+    "angular-animate": "latest",
+    "fontawesome": "latest"
+  }
+}
