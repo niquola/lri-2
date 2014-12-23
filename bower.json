@@ -1,10 +1,10 @@
 {
-  "name": "fhirplace-spa-ui",
+  "name": "lri",
   "version": "0.0.0",
   "dependencies": {
     "bootstrap": "latest",
-    "fhir.js": "latest",
     "angular": "latest",
+    "jquery": "latest",
     "angular-cookies": "latest",
     "angular-sanitize": "latest",
     "angular-route": "latest",

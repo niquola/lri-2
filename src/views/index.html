@@ -1,8 +1,42 @@
-<a href="#/mapping/{{p.id}}" class="srch-res" ng-repeat="p in mappings">
-  <h4>
-    <!-- <img class="avatar" ng-src=""/> -->
-    {{p.title}}
-  </h4>
-  <p> </p>
-  <i class="fa fa-chevron-right"></i>
-</a>
+<script type="text/ng-template" id="section.html">
+  <span ng-class="{'active': item.$active}" class="lbl" ng-click="setActive(item)"
+    ng-hide="noOptional && item.min == 0"
+    >
+    {{item.name || item.$.name}}
+    {{item | cardinality}}
+    <small>
+      <span>{{item.desc}}</span>
+    </small>
+    <span class="open" ng-show="item.elems">
+      <span ng-show="item.$open">&#9650;</span>
+      <span ng-hide="item.$open">&#9660;</span>
+    </span>
+  </span>
+  <ul ng-show="item.$open">
+    <li ng-repeat="item in item.elems"
+        ng-include="'section.html'"></li>
+  </ul>
+</script>
+
+<div class="col-xs-4 tree">
+  <h3>{{ messageInfo.name}}
+    <button class="btn btn-default btn-mini" ng-click="noOptional=!noOptional"><i class="fa fa-eye"></i></button>
+  </h3>
+  <ul>
+    <li ng-repeat="item in ::messageInfo.elems"
+        ng-include="'section.html'"></li>
+  </ul>
+</div>
+
+<div class="col-xs-8">
+  <h3>
+    {{glob.item.desc}}
+    {{glob.item.name}} {{glob.item | cardinality}}
+  </h3>
+  <table class="table" ng-show="glob.item.hl7">
+    <tr ng-repeat="(k,v) in glob.item.hl7">
+      <th>{{k}}</th>
+      <td>{{v[0]}}</td>
+    </tr>
+  </table>
+</div>

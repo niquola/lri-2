@@ -1,0 +1,3478 @@
+{
+ "name": "ORU_R01",
+ "$type": "group",
+ "elems": [
+  {
+   "name": "MSH",
+   "min": "1",
+   "max": "1",
+   "$type": "segment",
+   "elems": [
+    {
+     "name": "MSH.1",
+     "desc": "Field Separator",
+     "min": "1",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.2",
+     "desc": "Encoding Characters",
+     "min": "1",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.3",
+     "desc": "Sending Application",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.4",
+     "desc": "Sending Facility",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.5",
+     "desc": "Receiving Application",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.6",
+     "desc": "Receiving Facility",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.7",
+     "desc": "Date/Time Of Message",
+     "min": "1",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.8",
+     "desc": "Security",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.9",
+     "desc": "Message Type",
+     "min": "1",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.10",
+     "desc": "Message Control ID",
+     "min": "1",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.11",
+     "desc": "Processing ID",
+     "min": "1",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.12",
+     "desc": "Version ID",
+     "min": "1",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.13",
+     "desc": "Sequence Number",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.14",
+     "desc": "Continuation Pointer",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.15",
+     "desc": "Accept Acknowledgment Type",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.16",
+     "desc": "Application Acknowledgment Type",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.17",
+     "desc": "Country Code",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.18",
+     "desc": "Character Set",
+     "min": "0",
+     "max": "unbounded",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.19",
+     "desc": "Principal Language Of Message",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.20",
+     "desc": "Alternate Character Set Handling Scheme",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "MSH.21",
+     "desc": "Message Profile Identifier",
+     "min": "0",
+     "max": "unbounded",
+     "$type": "field"
+    }
+   ]
+  },
+  {
+   "name": "SFT",
+   "min": "0",
+   "max": "unbounded",
+   "$type": "segment",
+   "elems": [
+    {
+     "name": "SFT.1",
+     "desc": "Software Vendor Organization",
+     "min": "1",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "SFT.2",
+     "desc": "Software Certified Version or Release Number",
+     "min": "1",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "SFT.3",
+     "desc": "Software Product Name",
+     "min": "1",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "SFT.4",
+     "desc": "Software Binary ID",
+     "min": "1",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "SFT.5",
+     "desc": "Software Product Information",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "SFT.6",
+     "desc": "Software Install Date",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    }
+   ]
+  },
+  {
+   "name": "PATIENT_RESULT",
+   "min": "1",
+   "max": "unbounded",
+   "$type": "group",
+   "elems": [
+    {
+     "name": "PATIENT",
+     "min": "0",
+     "max": "1",
+     "$type": "group",
+     "elems": [
+      {
+       "name": "PID",
+       "min": "1",
+       "max": "1",
+       "$type": "segment",
+       "elems": [
+        {
+         "name": "PID.1",
+         "desc": "Set ID - PID",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.2",
+         "desc": "Patient ID",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.3",
+         "desc": "Patient Identifier List",
+         "min": "1",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.4",
+         "desc": "Alternate Patient ID - PID",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.5",
+         "desc": "Patient Name",
+         "min": "1",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.6",
+         "desc": "Mother's Maiden Name",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.7",
+         "desc": "Date/Time of Birth",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.8",
+         "desc": "Administrative Sex",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.9",
+         "desc": "Patient Alias",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.10",
+         "desc": "Race",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.11",
+         "desc": "Patient Address",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.12",
+         "desc": "County Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.13",
+         "desc": "Phone Number - Home",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.14",
+         "desc": "Phone Number - Business",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.15",
+         "desc": "Primary Language",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.16",
+         "desc": "Marital Status",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.17",
+         "desc": "Religion",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.18",
+         "desc": "Patient Account Number",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.19",
+         "desc": "SSN Number - Patient",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.20",
+         "desc": "Driver's License Number - Patient",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.21",
+         "desc": "Mother's Identifier",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.22",
+         "desc": "Ethnic Group",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.23",
+         "desc": "Birth Place",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.24",
+         "desc": "Multiple Birth Indicator",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.25",
+         "desc": "Birth Order",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.26",
+         "desc": "Citizenship",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.27",
+         "desc": "Veterans Military Status",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.28",
+         "desc": "Nationality",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.29",
+         "desc": "Patient Death Date and Time",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.30",
+         "desc": "Patient Death Indicator",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.31",
+         "desc": "Identity Unknown Indicator",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.32",
+         "desc": "Identity Reliability Code",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PID.33",
+         "desc": "Last Update Date/Time",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.34",
+         "desc": "Last Update Facility",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.35",
+         "desc": "Species Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.36",
+         "desc": "Breed Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.37",
+         "desc": "Strain",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.38",
+         "desc": "Production Class Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PID.39",
+         "desc": "Tribal Citizenship",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        }
+       ]
+      },
+      {
+       "name": "PD1",
+       "min": "0",
+       "max": "1",
+       "$type": "segment",
+       "elems": [
+        {
+         "name": "PD1.1",
+         "desc": "Living Dependency",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.2",
+         "desc": "Living Arrangement",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.3",
+         "desc": "Patient Primary Facility",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.4",
+         "desc": "Patient Primary Care Provider Name & ID No.",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.5",
+         "desc": "Student Indicator",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.6",
+         "desc": "Handicap",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.7",
+         "desc": "Living Will Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.8",
+         "desc": "Organ Donor Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.9",
+         "desc": "Separate Bill",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.10",
+         "desc": "Duplicate Patient",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.11",
+         "desc": "Publicity Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.12",
+         "desc": "Protection Indicator",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.13",
+         "desc": "Protection Indicator Effective Date",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.14",
+         "desc": "Place of Worship",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.15",
+         "desc": "Advance Directive Code",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.16",
+         "desc": "Immunization Registry Status",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.17",
+         "desc": "Immunization Registry Status Effective Date",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.18",
+         "desc": "Publicity Code Effective Date",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.19",
+         "desc": "Military Branch",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.20",
+         "desc": "Military Rank/Grade",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "PD1.21",
+         "desc": "Military Status",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        }
+       ]
+      },
+      {
+       "name": "NTE",
+       "min": "0",
+       "max": "unbounded",
+       "$type": "segment",
+       "elems": [
+        {
+         "name": "NTE.1",
+         "desc": "Set ID - NTE",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NTE.2",
+         "desc": "Source of Comment",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NTE.3",
+         "desc": "Comment",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NTE.4",
+         "desc": "Comment Type",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        }
+       ]
+      },
+      {
+       "name": "NK1",
+       "min": "0",
+       "max": "unbounded",
+       "$type": "segment",
+       "elems": [
+        {
+         "name": "NK1.1",
+         "desc": "Set ID - NK1",
+         "min": "1",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.2",
+         "desc": "Name",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.3",
+         "desc": "Relationship",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.4",
+         "desc": "Address",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.5",
+         "desc": "Phone Number",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.6",
+         "desc": "Business Phone Number",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.7",
+         "desc": "Contact Role",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.8",
+         "desc": "Start Date",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.9",
+         "desc": "End Date",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.10",
+         "desc": "Next of Kin / Associated Parties Job Title",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.11",
+         "desc": "Next of Kin / Associated Parties Job Code/Class",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.12",
+         "desc": "Next of Kin / Associated Parties Employee Number",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.13",
+         "desc": "Organization Name - NK1",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.14",
+         "desc": "Marital Status",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.15",
+         "desc": "Administrative Sex",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.16",
+         "desc": "Date/Time of Birth",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.17",
+         "desc": "Living Dependency",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.18",
+         "desc": "Ambulatory Status",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.19",
+         "desc": "Citizenship",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.20",
+         "desc": "Primary Language",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.21",
+         "desc": "Living Arrangement",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.22",
+         "desc": "Publicity Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.23",
+         "desc": "Protection Indicator",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.24",
+         "desc": "Student Indicator",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.25",
+         "desc": "Religion",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.26",
+         "desc": "Mother's Maiden Name",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.27",
+         "desc": "Nationality",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.28",
+         "desc": "Ethnic Group",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.29",
+         "desc": "Contact Reason",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.30",
+         "desc": "Contact Person's Name",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.31",
+         "desc": "Contact Person's Telephone Number",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.32",
+         "desc": "Contact Person's Address",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.33",
+         "desc": "Next of Kin/Associated Party's Identifiers",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.34",
+         "desc": "Job Status",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.35",
+         "desc": "Race",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.36",
+         "desc": "Handicap",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.37",
+         "desc": "Contact Person Social Security Number",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.38",
+         "desc": "Next of Kin Birth Place",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NK1.39",
+         "desc": "VIP Indicator",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        }
+       ]
+      },
+      {
+       "name": "VISIT",
+       "min": "0",
+       "max": "1",
+       "$type": "group",
+       "elems": [
+        {
+         "name": "PV1",
+         "min": "1",
+         "max": "1",
+         "$type": "segment",
+         "elems": [
+          {
+           "name": "PV1.1",
+           "desc": "Set ID - PV1",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.2",
+           "desc": "Patient Class",
+           "min": "1",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.3",
+           "desc": "Assigned Patient Location",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.4",
+           "desc": "Admission Type",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.5",
+           "desc": "Preadmit Number",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.6",
+           "desc": "Prior Patient Location",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.7",
+           "desc": "Attending Doctor",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.8",
+           "desc": "Referring Doctor",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.9",
+           "desc": "Consulting Doctor",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.10",
+           "desc": "Hospital Service",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.11",
+           "desc": "Temporary Location",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.12",
+           "desc": "Preadmit Test Indicator",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.13",
+           "desc": "Re-admission Indicator",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.14",
+           "desc": "Admit Source",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.15",
+           "desc": "Ambulatory Status",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.16",
+           "desc": "VIP Indicator",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.17",
+           "desc": "Admitting Doctor",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.18",
+           "desc": "Patient Type",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.19",
+           "desc": "Visit Number",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.20",
+           "desc": "Financial Class",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.21",
+           "desc": "Charge Price Indicator",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.22",
+           "desc": "Courtesy Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.23",
+           "desc": "Credit Rating",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.24",
+           "desc": "Contract Code",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.25",
+           "desc": "Contract Effective Date",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.26",
+           "desc": "Contract Amount",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.27",
+           "desc": "Contract Period",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.28",
+           "desc": "Interest Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.29",
+           "desc": "Transfer to Bad Debt Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.30",
+           "desc": "Transfer to Bad Debt Date",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.31",
+           "desc": "Bad Debt Agency Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.32",
+           "desc": "Bad Debt Transfer Amount",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.33",
+           "desc": "Bad Debt Recovery Amount",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.34",
+           "desc": "Delete Account Indicator",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.35",
+           "desc": "Delete Account Date",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.36",
+           "desc": "Discharge Disposition",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.37",
+           "desc": "Discharged to Location",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.38",
+           "desc": "Diet Type",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.39",
+           "desc": "Servicing Facility",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.40",
+           "desc": "Bed Status",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.41",
+           "desc": "Account Status",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.42",
+           "desc": "Pending Location",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.43",
+           "desc": "Prior Temporary Location",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.44",
+           "desc": "Admit Date/Time",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.45",
+           "desc": "Discharge Date/Time",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.46",
+           "desc": "Current Patient Balance",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.47",
+           "desc": "Total Charges",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.48",
+           "desc": "Total Adjustments",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.49",
+           "desc": "Total Payments",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.50",
+           "desc": "Alternate Visit ID",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.51",
+           "desc": "Visit Indicator",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV1.52",
+           "desc": "Other Healthcare Provider",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          }
+         ]
+        },
+        {
+         "name": "PV2",
+         "min": "0",
+         "max": "1",
+         "$type": "segment",
+         "elems": [
+          {
+           "name": "PV2.1",
+           "desc": "Prior Pending Location",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.2",
+           "desc": "Accommodation Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.3",
+           "desc": "Admit Reason",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.4",
+           "desc": "Transfer Reason",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.5",
+           "desc": "Patient Valuables",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.6",
+           "desc": "Patient Valuables Location",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.7",
+           "desc": "Visit User Code",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.8",
+           "desc": "Expected Admit Date/Time",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.9",
+           "desc": "Expected Discharge Date/Time",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.10",
+           "desc": "Estimated Length of Inpatient Stay",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.11",
+           "desc": "Actual Length of Inpatient Stay",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.12",
+           "desc": "Visit Description",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.13",
+           "desc": "Referral Source Code",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.14",
+           "desc": "Previous Service Date",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.15",
+           "desc": "Employment Illness Related Indicator",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.16",
+           "desc": "Purge Status Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.17",
+           "desc": "Purge Status Date",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.18",
+           "desc": "Special Program Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.19",
+           "desc": "Retention Indicator",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.20",
+           "desc": "Expected Number of Insurance Plans",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.21",
+           "desc": "Visit Publicity Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.22",
+           "desc": "Visit Protection Indicator",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.23",
+           "desc": "Clinic Organization Name",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.24",
+           "desc": "Patient Status Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.25",
+           "desc": "Visit Priority Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.26",
+           "desc": "Previous Treatment Date",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.27",
+           "desc": "Expected Discharge Disposition",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.28",
+           "desc": "Signature on File Date",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.29",
+           "desc": "First Similar Illness Date",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.30",
+           "desc": "Patient Charge Adjustment Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.31",
+           "desc": "Recurring Service Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.32",
+           "desc": "Billing Media Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.33",
+           "desc": "Expected Surgery Date and Time",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.34",
+           "desc": "Military Partnership Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.35",
+           "desc": "Military Non-Availability Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.36",
+           "desc": "Newborn Baby Indicator",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.37",
+           "desc": "Baby Detained Indicator",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.38",
+           "desc": "Mode of Arrival Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.39",
+           "desc": "Recreational Drug Use Code",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.40",
+           "desc": "Admission Level of Care Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.41",
+           "desc": "Precaution Code",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.42",
+           "desc": "Patient Condition Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.43",
+           "desc": "Living Will Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.44",
+           "desc": "Organ Donor Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.45",
+           "desc": "Advance Directive Code",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.46",
+           "desc": "Patient Status Effective Date",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.47",
+           "desc": "Expected LOA Return Date/Time",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.48",
+           "desc": "Expected Pre-admission Testing Date/Time",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "PV2.49",
+           "desc": "Notify Clergy Code",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "ORDER_OBSERVATION",
+     "min": "1",
+     "max": "unbounded",
+     "$type": "group",
+     "elems": [
+      {
+       "name": "ORC",
+       "min": "0",
+       "max": "1",
+       "$type": "segment",
+       "elems": [
+        {
+         "name": "ORC.1",
+         "desc": "Order Control",
+         "min": "1",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.2",
+         "desc": "Placer Order Number",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.3",
+         "desc": "Filler Order Number",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.4",
+         "desc": "Placer Group Number",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.5",
+         "desc": "Order Status",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.6",
+         "desc": "Response Flag",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.7",
+         "desc": "Quantity/Timing",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.8",
+         "desc": "Parent",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.9",
+         "desc": "Date/Time of Transaction",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.10",
+         "desc": "Entered By",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.11",
+         "desc": "Verified By",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.12",
+         "desc": "Ordering Provider",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.13",
+         "desc": "Enterer's Location",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.14",
+         "desc": "Call Back Phone Number",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.15",
+         "desc": "Order Effective Date/Time",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.16",
+         "desc": "Order Control Code Reason",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.17",
+         "desc": "Entering Organization",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.18",
+         "desc": "Entering Device",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.19",
+         "desc": "Action By",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.20",
+         "desc": "Advanced Beneficiary Notice Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.21",
+         "desc": "Ordering Facility Name",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.22",
+         "desc": "Ordering Facility Address",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.23",
+         "desc": "Ordering Facility Phone Number",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.24",
+         "desc": "Ordering Provider Address",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.25",
+         "desc": "Order Status Modifier",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.26",
+         "desc": "Advanced Beneficiary Notice Override Reason",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.27",
+         "desc": "Filler's Expected Availability Date/Time",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.28",
+         "desc": "Confidentiality Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.29",
+         "desc": "Order Type",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.30",
+         "desc": "Enterer Authorization Mode",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "ORC.31",
+         "desc": "Parent Universal Service Identifier",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        }
+       ]
+      },
+      {
+       "name": "OBR",
+       "min": "1",
+       "max": "1",
+       "$type": "segment",
+       "elems": [
+        {
+         "name": "OBR.1",
+         "desc": "Set ID - OBR",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.2",
+         "desc": "Placer Order Number",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.3",
+         "desc": "Filler Order Number",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.4",
+         "desc": "Universal Service Identifier",
+         "min": "1",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.5",
+         "desc": "Priority - OBR",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.6",
+         "desc": "Requested Date/Time",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.7",
+         "desc": "Observation Date/Time",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.8",
+         "desc": "Observation End Date/Time",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.9",
+         "desc": "Collection Volume",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.10",
+         "desc": "Collector Identifier",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.11",
+         "desc": "Specimen Action Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.12",
+         "desc": "Danger Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.13",
+         "desc": "Relevant Clinical Information",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.14",
+         "desc": "Specimen Received Date/Time",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.15",
+         "desc": "Specimen Source",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.16",
+         "desc": "Ordering Provider",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.17",
+         "desc": "Order Callback Phone Number",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.18",
+         "desc": "Placer Field 1",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.19",
+         "desc": "Placer Field 2",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.20",
+         "desc": "Filler Field 1",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.21",
+         "desc": "Filler Field 2",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.22",
+         "desc": "Results Rpt/Status Chng - Date/Time",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.23",
+         "desc": "Charge to Practice",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.24",
+         "desc": "Diagnostic Serv Sect ID",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.25",
+         "desc": "Result Status",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.26",
+         "desc": "Parent Result",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.27",
+         "desc": "Quantity/Timing",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.28",
+         "desc": "Result Copies To",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.29",
+         "desc": "Parent",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.30",
+         "desc": "Transportation Mode",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.31",
+         "desc": "Reason for Study",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.32",
+         "desc": "Principal Result Interpreter",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.33",
+         "desc": "Assistant Result Interpreter",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.34",
+         "desc": "Technician",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.35",
+         "desc": "Transcriptionist",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.36",
+         "desc": "Scheduled Date/Time",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.37",
+         "desc": "Number of Sample Containers *",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.38",
+         "desc": "Transport Logistics of Collected Sample",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.39",
+         "desc": "Collector's Comment *",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.40",
+         "desc": "Transport Arrangement Responsibility",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.41",
+         "desc": "Transport Arranged",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.42",
+         "desc": "Escort Required",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.43",
+         "desc": "Planned Patient Transport Comment",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.44",
+         "desc": "Procedure Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.45",
+         "desc": "Procedure Code Modifier",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.46",
+         "desc": "Placer Supplemental Service Information",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.47",
+         "desc": "Filler Supplemental Service Information",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.48",
+         "desc": "Medically Necessary Duplicate Procedure Reason.",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.49",
+         "desc": "Result Handling",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "OBR.50",
+         "desc": "Parent Universal Service Identifier",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        }
+       ]
+      },
+      {
+       "name": "NTE",
+       "min": "0",
+       "max": "unbounded",
+       "$type": "segment",
+       "elems": [
+        {
+         "name": "NTE.1",
+         "desc": "Set ID - NTE",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NTE.2",
+         "desc": "Source of Comment",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "NTE.3",
+         "desc": "Comment",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "NTE.4",
+         "desc": "Comment Type",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        }
+       ]
+      },
+      {
+       "name": "TIMING_QTY",
+       "min": "0",
+       "max": "unbounded",
+       "$type": "group",
+       "elems": [
+        {
+         "name": "TQ1",
+         "hl7": [
+          {
+           "$": {
+            "source": "http://java.sun.com/xml/ns/jaxb"
+           },
+           "jaxb:class": [
+            {
+             "$": {
+              "name": "TQ1xCONTENT"
+             }
+            }
+           ]
+          }
+         ],
+         "min": "1",
+         "max": "1",
+         "$type": "segment",
+         "elems": [
+          {
+           "name": "TQ1.1",
+           "desc": "Set ID - TQ1",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.2",
+           "desc": "Quantity",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.3",
+           "desc": "Repeat Pattern",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.4",
+           "desc": "Explicit Time",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.5",
+           "desc": "Relative Time and Units",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.6",
+           "desc": "Service Duration",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.7",
+           "desc": "Start date/time",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.8",
+           "desc": "End date/time",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.9",
+           "desc": "Priority",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.10",
+           "desc": "Condition text",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.11",
+           "desc": "Text instruction",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.12",
+           "desc": "Conjunction",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.13",
+           "desc": "Occurrence duration",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ1.14",
+           "desc": "Total occurrence's",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          }
+         ]
+        },
+        {
+         "name": "TQ2",
+         "hl7": [
+          {
+           "$": {
+            "source": "http://java.sun.com/xml/ns/jaxb"
+           },
+           "jaxb:class": [
+            {
+             "$": {
+              "name": "TQ2xCONTENT"
+             }
+            }
+           ]
+          }
+         ],
+         "min": "0",
+         "max": "unbounded",
+         "$type": "segment",
+         "elems": [
+          {
+           "name": "TQ2.1",
+           "desc": "Set ID - TQ2",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ2.2",
+           "desc": "Sequence/Results Flag",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ2.3",
+           "desc": "Related Placer Number",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "TQ2.4",
+           "desc": "Related Filler Number",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "TQ2.5",
+           "desc": "Related Placer Group Number",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "TQ2.6",
+           "desc": "Sequence Condition Code",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ2.7",
+           "desc": "Cyclic Entry/Exit Indicator",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ2.8",
+           "desc": "Sequence Condition Time Interval",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ2.9",
+           "desc": "Cyclic Group Maximum Number of Repeats",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "TQ2.10",
+           "desc": "Special Service Request Relationship",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "CTD",
+       "min": "0",
+       "max": "1",
+       "$type": "segment",
+       "elems": [
+        {
+         "name": "CTD.1",
+         "desc": "Contact Role",
+         "min": "1",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "CTD.2",
+         "desc": "Contact Name",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "CTD.3",
+         "desc": "Contact Address",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "CTD.4",
+         "desc": "Contact Location",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "CTD.5",
+         "desc": "Contact Communication Information",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "CTD.6",
+         "desc": "Preferred Method of Contact",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "CTD.7",
+         "desc": "Contact Identifiers",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        }
+       ]
+      },
+      {
+       "name": "OBSERVATION",
+       "min": "0",
+       "max": "unbounded",
+       "$type": "group",
+       "elems": [
+        {
+         "name": "OBX",
+         "min": "1",
+         "max": "1",
+         "$type": "segment",
+         "elems": [
+          {
+           "name": "OBX.1",
+           "desc": "Set ID - OBX",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.2",
+           "desc": "Value Type",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.3",
+           "desc": "Observation Identifier",
+           "min": "1",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.4",
+           "desc": "Observation Sub-ID",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.5",
+           "desc": "Observation Value",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.6",
+           "desc": "Units",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.7",
+           "desc": "References Range",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.8",
+           "desc": "Abnormal Flags",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.9",
+           "desc": "Probability",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.10",
+           "desc": "Nature of Abnormal Test",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.11",
+           "desc": "Observation Result Status",
+           "min": "1",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.12",
+           "desc": "Effective Date of Reference Range Values",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.13",
+           "desc": "User Defined Access Checks",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.14",
+           "desc": "Date/Time of the Observation",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.15",
+           "desc": "Producer's Reference",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.16",
+           "desc": "Responsible Observer",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.17",
+           "desc": "Observation Method",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.18",
+           "desc": "Equipment Instance Identifier",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.19",
+           "desc": "Date/Time of the Analysis",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.20",
+           "desc": "Performing Organization Name",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.21",
+           "desc": "Performing Organization Address",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.22",
+           "desc": "Performing Organization Medical Director",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          }
+         ]
+        },
+        {
+         "name": "NTE",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "segment",
+         "elems": [
+          {
+           "name": "NTE.1",
+           "desc": "Set ID - NTE",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "NTE.2",
+           "desc": "Source of Comment",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "NTE.3",
+           "desc": "Comment",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "NTE.4",
+           "desc": "Comment Type",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "FT1",
+       "min": "0",
+       "max": "unbounded",
+       "$type": "segment",
+       "elems": [
+        {
+         "name": "FT1.1",
+         "desc": "Set ID - FT1",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.2",
+         "desc": "Transaction ID",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.3",
+         "desc": "Transaction Batch ID",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.4",
+         "desc": "Transaction Date",
+         "min": "1",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.5",
+         "desc": "Transaction Posting Date",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.6",
+         "desc": "Transaction Type",
+         "min": "1",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.7",
+         "desc": "Transaction Code",
+         "min": "1",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.8",
+         "desc": "Transaction Description",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.9",
+         "desc": "Transaction Description - Alt",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.10",
+         "desc": "Transaction Quantity",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.11",
+         "desc": "Transaction Amount - Extended",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.12",
+         "desc": "Transaction Amount - Unit",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.13",
+         "desc": "Department Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.14",
+         "desc": "Insurance Plan ID",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.15",
+         "desc": "Insurance Amount",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.16",
+         "desc": "Assigned Patient Location",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.17",
+         "desc": "Fee Schedule",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.18",
+         "desc": "Patient Type",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.19",
+         "desc": "Diagnosis Code - FT1",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.20",
+         "desc": "Performed By Code",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.21",
+         "desc": "Ordered By Code",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.22",
+         "desc": "Unit Cost",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.23",
+         "desc": "Filler Order Number",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.24",
+         "desc": "Entered By Code",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.25",
+         "desc": "Procedure Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.26",
+         "desc": "Procedure Code Modifier",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.27",
+         "desc": "Advanced Beneficiary Notice Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.28",
+         "desc": "Medically Necessary Duplicate Procedure Reason.",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.29",
+         "desc": "NDC Code",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.30",
+         "desc": "Payment Reference ID",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "FT1.31",
+         "desc": "Transaction Reference Key",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "field"
+        }
+       ]
+      },
+      {
+       "name": "CTI",
+       "min": "0",
+       "max": "unbounded",
+       "$type": "segment",
+       "elems": [
+        {
+         "name": "CTI.1",
+         "desc": "Sponsor Study ID",
+         "min": "1",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "CTI.2",
+         "desc": "Study Phase Identifier",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        },
+        {
+         "name": "CTI.3",
+         "desc": "Study Scheduled Time Point",
+         "min": "0",
+         "max": "1",
+         "$type": "field"
+        }
+       ]
+      },
+      {
+       "name": "SPECIMEN",
+       "min": "0",
+       "max": "unbounded",
+       "$type": "group",
+       "elems": [
+        {
+         "name": "SPM",
+         "min": "1",
+         "max": "1",
+         "$type": "segment",
+         "elems": [
+          {
+           "name": "SPM.1",
+           "desc": "Set ID - SPM",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.2",
+           "desc": "Specimen ID",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.3",
+           "desc": "Specimen Parent IDs",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.4",
+           "desc": "Specimen Type",
+           "min": "1",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.5",
+           "desc": "Specimen Type Modifier",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.6",
+           "desc": "Specimen Additives",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.7",
+           "desc": "Specimen Collection Method",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.8",
+           "desc": "Specimen Source Site",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.9",
+           "desc": "Specimen Source Site Modifier",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.10",
+           "desc": "Specimen Collection Site",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.11",
+           "desc": "Specimen Role",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.12",
+           "desc": "Specimen Collection Amount",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.13",
+           "desc": "Grouped Specimen Count",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.14",
+           "desc": "Specimen Description",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.15",
+           "desc": "Specimen Handling Code",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.16",
+           "desc": "Specimen Risk Code",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.17",
+           "desc": "Specimen Collection Date/Time",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.18",
+           "desc": "Specimen Received Date/Time",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.19",
+           "desc": "Specimen Expiration Date/Time",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.20",
+           "desc": "Specimen Availability",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.21",
+           "desc": "Specimen Reject Reason",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.22",
+           "desc": "Specimen Quality",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.23",
+           "desc": "Specimen Appropriateness",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.24",
+           "desc": "Specimen Condition",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.25",
+           "desc": "Specimen Current Quantity",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.26",
+           "desc": "Number of Specimen Containers",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.27",
+           "desc": "Container Type",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.28",
+           "desc": "Container Condition",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "SPM.29",
+           "desc": "Specimen Child Role",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          }
+         ]
+        },
+        {
+         "name": "OBX",
+         "min": "0",
+         "max": "unbounded",
+         "$type": "segment",
+         "elems": [
+          {
+           "name": "OBX.1",
+           "desc": "Set ID - OBX",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.2",
+           "desc": "Value Type",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.3",
+           "desc": "Observation Identifier",
+           "min": "1",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.4",
+           "desc": "Observation Sub-ID",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.5",
+           "desc": "Observation Value",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.6",
+           "desc": "Units",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.7",
+           "desc": "References Range",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.8",
+           "desc": "Abnormal Flags",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.9",
+           "desc": "Probability",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.10",
+           "desc": "Nature of Abnormal Test",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.11",
+           "desc": "Observation Result Status",
+           "min": "1",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.12",
+           "desc": "Effective Date of Reference Range Values",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.13",
+           "desc": "User Defined Access Checks",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.14",
+           "desc": "Date/Time of the Observation",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.15",
+           "desc": "Producer's Reference",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.16",
+           "desc": "Responsible Observer",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.17",
+           "desc": "Observation Method",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.18",
+           "desc": "Equipment Instance Identifier",
+           "min": "0",
+           "max": "unbounded",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.19",
+           "desc": "Date/Time of the Analysis",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.20",
+           "desc": "Performing Organization Name",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.21",
+           "desc": "Performing Organization Address",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          },
+          {
+           "name": "OBX.22",
+           "desc": "Performing Organization Medical Director",
+           "min": "0",
+           "max": "1",
+           "$type": "field"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "DSC",
+   "min": "0",
+   "max": "1",
+   "$type": "segment",
+   "elems": [
+    {
+     "name": "DSC.1",
+     "desc": "Continuation Pointer",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    },
+    {
+     "name": "DSC.2",
+     "desc": "Continuation Style",
+     "min": "0",
+     "max": "1",
+     "$type": "field"
+    }
+   ]
+  }
+ ]
+}

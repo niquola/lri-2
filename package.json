@@ -27,7 +27,10 @@
     "karma-phantomjs-launcher": "latest",
     "karma-webpack": "latest",
     "less-loader": "latest",
-    "phantomjs": "latest"
+    "phantomjs": "latest",
+
+    "q":"latest",
+    "xml2js":"latest"
   },
   "engines": {
     "node": ">=0.10.0"

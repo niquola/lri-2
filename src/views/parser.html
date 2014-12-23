@@ -1,0 +1,25 @@
+<h1>Parser</h1>
+
+<div class="row">
+  <div class="col-xs-6">
+    <table class="table">
+      <tr>
+        <th>position</th>
+        <th>desc</th>
+        <th>value</th>
+      </tr>
+      <tr ng-repeat="m in message.parsed">
+        <td>{{m.field.name}}</td>
+        <td>{{m.info.desc}}</td>
+        <td>{{m.field.value}}</td>
+      </tr>
+    </table>
+  </div>
+  <div class="col-xs-6">
+    <textarea class="form-control"
+      ng-model="message.text"
+      style="min-height:500px;">
+    </textarea>
+  </div>
+</div>
+
