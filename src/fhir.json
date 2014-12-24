@@ -1,6 +1,6 @@
 {
-  "name": "hl72fhir",
-  "title": "HL7 to FHIR",
+  "name": "hl7-lri",
+  "title": "LRI in js",
   "version": "0.0.1",
-  "description": "Interactive mapping for HL7v2 to FHIR"
+  "description": "Spike about LRI in JS"
 }

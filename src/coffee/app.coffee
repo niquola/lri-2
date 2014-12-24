@@ -30,6 +30,7 @@ activate = (name)->
 messageInfo = require('json!../../generation/result.json')
 
 app.run ($rootScope, $location)->
+  $rootScope.messageInfo = messageInfo
   $rootScope.sitemap = sitemap
   $rootScope.$on  "$routeChangeStart", (event, next, current)->
     activate(next.name)
@@ -43,6 +44,14 @@ app.run ($rootScope, $location)->
        console.error(arguments)
        $rootScope.error = vv || "Server error #{status} while loading:  #{req.url}"
        delete $rootScope.loading
+
+app.filter 'icon', ()->
+  (x)->
+    switch x.$type
+      when 'segment' then 'fa-list-ul'
+      when 'field' then 'fa-circle'
+      when 'group' then 'fa-folder-o'
+      else ''
 
 app.filter 'cardinality', ()->
   (x)->
@@ -59,7 +68,7 @@ app.filter 'cardinality', ()->
       "#{x.min}-#{x.max}"
 app.controller 'IndexCtrl',($scope)->
   $scope.glob = {}
-  $scope.messageInfo = messageInfo
+  # $scope.messageInfo = messageInfo
   $scope.setActive = (item)->
     item.$open = !item.$open
     if item.$type == 'field'
@@ -69,17 +78,17 @@ app.controller 'IndexCtrl',($scope)->
       $scope.glob.item = item
 
 parser = require('./parser')
+_msg = require('raw!../../test/msg.hl7')
 
 app.controller 'ParserCtrl',($scope)->
-  _msg = """
-  MSH|^~\&|^2.16.840.1.113883.3.72.5.20^ISO|^2.16.840.1.113883.3.72.5.21^ISO||^2.16.840.1.113883.3.72.5.23^ISO|20110331160551-0700||ORU^R01^ORU_R01|NIST-LRI-TC-NG-XXX.XX|T|2.5.1|||AL|NE|||||Base Profile LRI R1^^2.16.840.1.113883.9.16^ISO~Profile NG^^2.16.840.1.113883.9.13^ISO~Profile RU^^2.16.840.1.113883.9.14^ISO
-  PID|1||PATID1234^^^&2.16.840.1.113883.3.72.5.30.1&ISO^MR||JONES^WILLIAM||||||||||||||||||||||
-  ORC|RE|ORD723222^^2.16.840.1.113883.3.72.5.24^ISO|R-783274^^2.16.840.1.113883.3.72.5.25^ISO|GORD874211^^2.16.840.1.113883.3.72.5.24^ISO||||||||57422^RADON^NICHOLAS^^^^^^&2.16.840.1.113883.3.72.5.30.1&ISO
-  OBR|1|ORD723222^^2.16.840.1.113883.3.72.5.24^ISO|R-783274^^2.16.840.1.113883.3.72.5.25^ISO|30341-2^Erythrocyte sedimentation rate^LN|||20110331140551-0700|||||||||57422^RADON^NICHOLAS^^^^^^&2.16.840.1.113883.3.72.5.30.1&ISO||||||20110331160428-0700|||F|||10092^HAMLIN^PAFFORD
-  """
+  $scope.segmentStart = (x)->
+    # console.log(x.name, x.name.match(/\.1$/))
+    x.name.match(/\.1$/)
   $scope.$watch 'message.text', (v)->
     return unless v
-    $scope.message.parsed = parser.parse(v, messageInfo)
+    msg = parser.parse(v, messageInfo)
+    $scope.message.parsed = msg
+    $scope.message.errors = parser.validate(msg)
 
   $scope.message = {text: _msg}
 

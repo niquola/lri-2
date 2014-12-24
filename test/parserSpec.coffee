@@ -7,10 +7,13 @@ ORC|RE|ORD723222^^2.16.840.1.113883.3.72.5.24^ISO|R-783274^^2.16.840.1.113883.3.
 OBR|1|ORD723222^^2.16.840.1.113883.3.72.5.24^ISO|R-783274^^2.16.840.1.113883.3.72.5.25^ISO|30341-2^Erythrocyte sedimentation rate^LN|||20110331140551-0700|||||||||57422^RADON^NICHOLAS^^^^^^&2.16.840.1.113883.3.72.5.30.1&ISO||||||20110331160428-0700|||F|||10092^HAMLIN^PAFFORD
 """
 
+_msg=require('raw!./msg.hl7')
 messageInfo = require('json!../generation/result.json')
 
 pp = (args...)->
   console.log.apply(console, args)
 
-pp subj.parse(_msg, messageInfo)
+msg = subj.parse(_msg, messageInfo)
+
+pp subj.validate(msg)
 

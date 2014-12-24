@@ -1,0 +1,290 @@
+MSH|^~\&|PHLIMS^3.11.333.1.333333.1.333^ISO|TNSPHLAB^77D7777777^CLIA|EHRSYSTEM|ST ELSEWHERE HOSPITAL^9999999999^NPI|20101014210405-0400||ORU^R01^ORU_R01|123|P|2.5.1
+PID|1||123456789^^^ST ELSEWHERE HOSPITAL&9999999999&NPI^MR||Lane^Jane^Mary^^^^L~Smith^Baby Girl^^^^^A|Smith|20101013|F||2106-3^white^HL70005|123 Main Street^Apartment 3-C^Anytown^TN^55555^USA^^^333|333|^^^^^865^5551212|||||||||N^Not Hispanic or Latino^HL70189||Y|1|||||N
+NK1|1|Lane^Lois^^^^^L|MTH^Mother^HL70063|123 Main Street^Apartment 3-C^Anytown^TN^55555^USA^^^333|^^^^^865^5551212|||||||||||19850710|||||||||||||||||123121234^^^SSA&2.16.840.1.113883.4.1&ISO^SS~222222222A2^^^TN^MA
+ORC|RE|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|||||||||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD|||||||||ST ELSEWHERE HOSPITAL^^^^^NPI&2.16.840.1.113883.4.6&ISO^NPI^^^9999999999|211 Small Street^^Anytown^TN^55555^USA^^^333|^^^^^865^4442222||||||I
+OBR|1|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|54089-8^Newborn screening panel American Health Information Community (AHIC)^LN|||201010141853|||^VH||||201010140920||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBR|2|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|57128-1^Newborn Screening Report summary panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|57721-3^Reason for lab test in Dried blood spot^LN||LA12421-6^Initial screen^LN|||N|||F
+OBX|2|CE|57718-9^Sample quality of Dried blood spot^LN||LA12432-3^Acceptable^LN|||N|||F
+OBX|3|CE|57130-7^Newborn screening report - overall interpretation^LN||LA12431-5^Out of range requiring immediate second-tier testing for at least one condition^LN|||A|||F
+OBX|4|CE|57131-5^Newborn conditions with positive markers [Identifier] in Dried blood spot^LN|1|LA12509-8^MCAD^LN^128596003^Medium-chain acyl-coenzyme A dehydrogenase deficiency^SCT|||A|||F
+OBX|5|CE|57131-5^Newborn conditions with positive markers [Identifier] in Dried blood spot^LN|1|LA16207-5^Hemoglobinopathies^LN^80141007^Hemoglobinopathy^SCT|||A|||F
+OBX|6|CE|57720-5^Newborn conditions with equivocal markers [Identifier] in Dried blood spot^LN||LA12532-0^BIO^LN^8808004^Biotinidase deficiency^SCT|||A|||F
+OBX|7|FT|57724-7^Newborn screening short narrative summary^LN||SUMMARY: Newborn Metabolic Screen REQUIRES FOLLOW UP\.br\Sample Quality: Acceptable\.br\Amino Acids, In range\.br\Fatty acids, ABNORMAL MCAD SCREEN\.br\Organic acids, In range\.br\TSH (CH), In range\.br\17-OH-Progesterone (CAH), No evidence of CAH\.br\Biotinidase, BORDERLINE BIOT SCREEN\.br\IRT (Cystic Fibrosis), No evidence of cystic fibrosis\.br\Hemoglobins, ABNORMAL HGB SCREEN due to a type of hemoglobin that could not be identified\.br\|||N|||F
+OBX|8|FT|57129-9^Full newborn screening summary report for display or printing^LN||NEWBORN METABOLIC SCREEN\.br\Patient's Name: Babygirl Lane Twin A\.br\Date of birth: 13 Oct 2010, Time of birth: 06:32 am\.br\Sex: Female\.br\Age at collection: 30 hours\.br\Mother's name: Lois Lane\.br\Accession number: 200902, Collected: 14 Oct 2010, Received: 15 Oct 2010\.br\Ordering physician: Dr. Minnie Smiles\.br\SUMMARY: Newborn Metabolic Screen REQUIRES FOLLOW UP\.br\Sample Quality: Acceptable\.br\Amino Acids, In range\.br\Fatty acids, ABNORMAL MCAD SCREEN\.br\Screen positive for medium chain acyl-CoA dehydrogenase deficiency (MCAD). Immediate clinical follow-up and contact with metabolic specialist indicated. Result phoned to Dr. Bob Healthy (865) 444-2222 2010-10-16, 2:34 pm, by Nurse Nancy. C8 = 19.71 umol/L (< 0.25 umol/L), C6 = 2.81 umol/L (< 0.25 umol/L), C10:1 = 0.71 umol/L (< 0.20 umol/L), C8/C10 = 11.324 (< 4.000), C8/C2 = 0.813 (< 0.050).\.br\...\.br\(full example report not included in this message for brevity)\.br\|||A|||F
+OBX|9|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|1|LA12463-8^HEAR^LN^15188001^Hearing loss^SCT|||N|||F
+OBX|10|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|2|LA20349-9^CCHD^LN|||N|||F
+OBX|11|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|3|LA12466-1^3-MCC^LN^13144005^Methylcrotonyl-CoA carboxylase deficiency^SCT|||N|||F
+OBX|12|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|4|LA12471-1^ASA^LN^41013004^Argininosuccinate lyase deficiency^SCT|||N|||F
+OBX|13|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|5|LA12474-5^BKT^LN^237953006^Mitochondrial 2-methylacetoacetyl-CoA thiolase deficiency - potassium stimulated^SCT|||N|||F
+OBX|14|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|6|LA12476-0^CBL A^LN^73843004^Cobalamin A disease^SCT|||N|||F
+OBX|15|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|7|LA12477-8^CBL B^LN^82245003^Cobalamin B disease^SCT|||N|||F
+OBX|16|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|8|LA12482-8^CIT-I^LN^398680004^Citrullinaemia^SCT|||N|||F
+OBX|17|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|9|LA12496-8^HCY^LN^11282001^Homocystinuria^SCT|||N|||F
+OBX|18|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|10|LA12487-7^CUD^LN^21764004^Renal carnitine transport defect^SCT|||N|||F
+OBX|19|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|11|LA12493-5^GA-1^LN^76175005^Glutaric aciduria, type 1^SCT|||N|||F
+OBX|20|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|12|LA12499-2^HMG^LN^410059004^Hydroxymethylglutaric aciduria^SCT|||N|||F
+OBX|21|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|13|LA12505-6^IVA^LN^87827003^Isovaleryl-CoA dehydrogenase deficiency^SCT|||N|||F
+OBX|22|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|14|LA12509-8^MCAD^LN^128596003^Medium-chain acyl-coenzyme A dehydrogenase deficiency^SCT|||A|||F
+OBX|23|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|15|LA12510-6^MCD^LN^360369003^Holocarboxylase synthase deficiency^SCT|||N|||F
+OBX|24|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|16|LA12513-0^MSUD^LN^27718001^Maple syrup urine disease^SCT|||N|||F
+OBX|25|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|17|LA12515-5^MUT^LN^124680001^Deficiency of methylmalonyl-CoA mutase^SCT|||N|||F
+OBX|26|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|18|LA12520-5^PKU^LN^7573000^Classical phenylketonuria^SCT|||N|||F
+OBX|27|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|19|LA12523-9^PROP^LN^69080001^Propionic acidemia^SCT|||N|||F
+OBX|28|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|20|LA12527-0^TFP^LN^237999008^Mitochondrial trifunctional protein deficiency^SCT|||N|||F
+OBX|29|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|21|LA12528-8^TYR-1^LN^410056006^Tyrosinaemia type I^SCT|||N|||F
+OBX|30|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|22|LA12531-2^VLCAD^LN^237997005^Very long chain acyl-CoA dehydrogenase deficiency^SCT|||N|||F
+OBX|31|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|23|LA12507-2^LCHAD^LN^307127004^Isolated long chain hydroxyacyl-CoA dehydrogenase deficiency^SCT|||N|||F
+OBX|32|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|24|LA12532-0^BIO^LN^8808004^Biotinidase deficiency^SCT|||A|||F
+OBX|33|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|25|LA12533-8^CAH^LN^124214007^Deficiency of steroid 11-beta-monooxygenase^SCT|||N|||F
+OBX|34|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|26|LA12537-9^CF^LN^190905008^Cystic fibrosis^SCT|||N|||F
+OBX|35|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|27|LA12538-7^CH^LN^190268003^Congenital hypothyroidism^SCT|||N|||F
+OBX|36|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|28|LA12543-7^GALT^LN^398664009^Deficiency of UTP-hexose-1-phosphate uridylyltransferase^SCT|||N|||F
+OBX|37|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|29|LA12614-6^Hb SS-disease (sickle cell anemia)^LN^127040003^Hereditary hemoglobinopathy disorder homozygous for hemoglobin S^SCT|||N|||F
+OBX|38|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|30|LA12616-1^Hb SC-disease^LN^35434009^Sickle cell-hemoglobin C disease^SCT|||N|||F
+OBX|39|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|31|LA12615-3^Hb S beta-thalassemia^LN^127041004^Sickle cell-beta-thalassemia^SCT|||N|||F
+OBX|40|CE|57719-7^Conditions tested for in this newborn screening study [Identifier] in Dried blood spot^LN|32|LA12566-8^SCID^LN^31323000^Severe combined immunodeficiency disease^SCT|||N|||F
+OBR|3|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|57717-1^Newborn screen card data panel^LN|||201010141853|||^VH||||201010140920||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|ST|57716-3^State printed on filter paper card [Identifier] in NBS card^LN||TN|||N|||F
+OBX|2|ST|57723-9^Unique bar code number of Current sample^LN||97893203|||N|||F
+OBX|3|CE|57722-1^Birth plurality of Pregnancy^LN||LA12412-5^Twins^LN|||N|||F
+OBX|4|TM|57715-5^Birth time^LN||0632-0500|||N|||F
+OBX|5|NM|57714-8^Obstetric estimation of gestational age^LN||37|wk||N|||F
+OBX|6|NM|8339-4^Birth weight Measured^LN||2920|g||N|||F
+OBX|7|NM|58229-6^Body weight Measured --when specimen taken^LN||2750|g|||||F
+OBX|8|TX|62323-1^Post-discharge provider ID [Identifier]^LN||4444444444||||||F
+OBX|9|TX|62324-9^Post-discharge provider name in Provider^LN||Dr Bob Healthy||||||F
+OBX|10|TX|62325-6^Post-discharge provider practice ID^LN||5555555555||||||F
+OBX|11|TX|62326-4^Post-discharge provider practice name^LN||Healthy Clinic||||||F
+OBX|12|TX|62327-2^Post-discharge provider practice address^LN||100 Small Street, Suite 3B, Anytown, Tennessee 55555||||||F
+OBX|13|TN|62328-0^Post-discharge provider practice telephone number^LN||(865) 542-3333||||||F
+OBX|14|TX|62329-8^Birth hospital facility ID [Identifier] in Facility^LN||9999999999||||||F
+OBX|15|TX|62330-6^Birth hospital facility name^LN||ST ELSEWHERE HOSPITAL||||||F
+OBX|16|TX|62331-4^Birth hospital facility address^LN||211 Small Street, Anytown, Tennessee 55555||||||F
+OBX|17|TN|62332-2^Birth hospital facility phone number in Facility^LN||(865) 444-2222|||N|||F
+OBX|18|CE|67704-7^Feeding types^LN|1|LA14041-0^Lactose free formula (including soy or hydrolyzed)^LN||||||F
+OBX|19|CE|67704-7^Feeding types^LN|2|LA16914-6^Breast milk^LN||||||F
+OBX|20|CE|57713-0^Infant NICU factors that affect newborn screening interpretation^LN|1|LA12419-0^Infant in ICU at time of specimen collection^LN||||||F
+OBX|21|CE|57713-0^Infant NICU factors that affect newborn screening interpretation^LN|2|LA12417-4^Any blood product transfusion (including ECMO)^LN||||||F
+OBX|22|DTM|62317-3^Date of last blood product transfusion^LN||201010131723||||||F
+OBX|23|CE|67706-2^Maternal factors that affect newborn screening interpretation^LN||LA46-8^Other^LN||||||F
+OBX|24|TX|67707-0^Other maternal factors that affect newborn screening interpretation Narrative^LN||Mother has Lupus||||||F
+OBR|4|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|57794-0^Newborn screening test results panel - Dried blood spot^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBR|5|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|53261-4^Amino acid newborn screen panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|46733-2^Amino acidemias newborn screen interpretation^LN||LA18592-8^In range^LN|||N|||F
+OBX|2|TX|57710-6^Amino acidemias newborn screening comment-discussion^LN||Any baby with clinical features suggestive of a metabolic disorder requires clinical and diagnostic follow-up regardless of whether the NBS result is normal or abnormal.|||N|||F
+OBX|3|CE|57793-2^Amino acidemia disorder suspected [Identifier] in Dried blood spot^LN||LA137-2^None^LN|||N|||F
+OBX|4|CE|46746-4^Phenylketonuria and variants/Biopterin defects newborn screen interpretation^LN||LA18592-8^In range^LN|||N|||F
+OBX|5|TX|58231-2^Phenylketonuria and variants/Biopterin defects newborn screening comment-discussion^LN||Any baby with clinical features suggestive of a metabolic disorder requires clinical and diagnostic follow-up regardless of whether the NBS result is normal or abnormal.|||N|||F
+OBX|6|CE|46743-1^Maple syrup urine disease newborn screen interpretation^LN||LA18592-8^In range^LN|||N|||F
+OBX|7|TX|58230-4^Maple syrup urine disease newborn screening comment-discussion^LN||Any baby with clinical features suggestive of a metabolic disorder requires clinical and diagnostic follow-up regardless of whether the NBS result is normal or abnormal.|||N|||F
+OBX|8|NM|47539-2^3-Methylhistidine [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|9|NM|53232-5^5-Oxoproline+Pipecolate [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|10|NM|53394-3^5-Oxoproline+Pipecolate/Phenylalanine [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|11|NM|53150-9^Alanine+Beta Alanine+Sarcosine [Moles/volume] in Dried blood spot^LN||1236.06|umol/L|<1500|N|||F
+OBX|12|NM|53393-5^Alloisoleucine+Isoleucine+Leucine+Hydroxyproline+Valine/Phenylalanine+Tyrosine [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|13|NM|53152-5^Alloisoleucine+Isoleucine+Leucine+Hydroxyproline [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|14|NM|53153-3^Alloisoleucine+Isoleucine+Leucine+Hydroxyproline/Phenylalanine [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|15|NM|53154-1^Alloisoleucine+Isoleucine+Leucine+Hydroxyproline/Alanine [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|16|NM|47562-4^Arginine [Moles/volume] in Dried blood spot^LN||5.89|umol/L|<90|N|||F
+OBX|17|NM|53398-4^Arginine/Phenylalanine [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|18|NM|53062-6^Argininosuccinate [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|19|NM|53200-2^Argininosuccinate/Arginine [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|20|NM|53155-8^Asparagine+Ornithine [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|21|NM|53395-0^Asparagine+Ornithine/Serine [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|22|NM|53396-8^Asparagine+Ornithine/Phenylalanine [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|23|NM|47573-1^Aspartate [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|24|NM|42892-0^Citrulline [Moles/volume] in Dried blood spot^LN||19.4|umol/L|<55|N|||F
+OBX|25|NM|54092-2^Citrulline/Arginine [Molar ratio] in Dried blood spot^LN||5.63|{Ratio}|5.1-6.0|N|||F
+OBX|26|NM|53157-4^Citrulline/Phenylalanine [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|27|NM|53399-2^Citrulline/Tyrosine [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|28|NM|47623-4^Glutamate [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|29|NM|47633-3^Glycine [Moles/volume] in Dried blood spot^LN||528|umol/L|<999|N|||N
+OBX|30|NM|47643-2^Histidine [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|31|NM|53158-2^Homocitrulline [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|32|NM|47689-5^Lysine [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|33|NM|47700-0^Methionine [Moles/volume] in Dried blood spot^LN||45.97|umol/L|44-49|N|||F
+OBX|34|NM|53397-6^Methionine/Alloisoleucine+Isoleucine+Leucine+Hydroxyproline [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|35|NM|53156-6^Methionine/Phenylalanine [Molar ratio] in Dried blood spot^LN||0.82|{Ratio}|0.76-1.0|N|||F
+OBX|36|NM|29573-3^Phenylalanine [Moles/volume] in Dried blood spot^LN||104.61|umol/L|99-135|N|||F
+OBX|37|NM|35572-7^Phenylalanine/Tyrosine [Molar ratio] in Dried blood spot^LN||2.46|{Ratio}|1.64-2.50|N|||F
+OBX|38|NM|47732-3^Proline [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|39|NM|53392-7^Proline/Phenylalanine [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|40|NM|47742-2^Serine [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|41|NM|53231-7^Succinylacetone [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|42|NM|47784-4^Threonine [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|43|NM|53159-0^Tryptophan [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|44|NM|35571-9^Tyrosine [Moles/volume] in Dried blood spot^LN||281.53|umol/L|205-223|H|||F
+OBX|45|NM|47799-2^Valine [Moles/volume] in Dried blood spot^LN||76|umol/L|<250|N|||F
+OBX|46|NM|53151-7^Valine/Phenylalanine [Molar ratio] in Dried blood spot^LN||1.44|{Ratio}|<4.0|N|||F
+OBR|6|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|58092-8^Acylcarnitine newborn screen panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|58088-6^Acylcarnitine newborn screen interpretation^LN||LA12431-5^Out of range requiring immediate second-tier testing for at least one condition^LN|||A|||F
+OBX|2|TX|58093-6^Acylcarnitine newborn screening comment-discussion^LN||ABNORMAL MCAD SCREEN. Screen positive for medium chain acyl-CoA dehydrogenase deficiency (MCAD). Immediate clinical follow-up and contact with metabolic specialist indicated. Result phoned to (XXX) XXX-XXXX; YYYY-MM-DD, HHMMh, by NAME.|||A|||F
+OBR|7|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|57084-6^Fatty acid oxidation newborn screen panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|46736-5^Fatty acid oxidation defects newborn screen interpretation^LN|1|LA12431-5^Out of range requiring immediate second-tier testing for at least one condition^LN|||A|||F
+OBX|2|CE|57792-4^Fatty acid oxidation conditions suspected [Identifier] in Dried blood spot^LN||LA12509-8^MCAD^LN^128596003^Medium-chain acyl-coenzyme A dehydrogenase deficiency^SCT|||A|||F
+OBX|3|TX|57709-8^Fatty acid oxidation defects newborn screening comment-discussion^LN||ABNORMAL MCAD SCREEN. Screen positive for medium chain acyl-CoA dehydrogenase deficiency (MCAD). Immediate clinical follow-up and contact with metabolic specialist indicated. Result phoned to (XXX) XXX-XXXX; YYYY-MM-DD, HHMMh, by NAME.|||A|||F
+OBX|4|NM|38481-8^Carnitine free (C0) [Moles/volume] in Dried blood spot^LN||11.88|umol/L|7.50-12.00|N|||F
+OBX|5|NM|53233-3^Carnitine free (C0)/Palmitoylcarnitine (C16) [Molar ratio] in Dried blood spot^LN||67.04|{Ratio}|<999|N|||F
+OBX|6|NM|54462-7^Malonylcarnitine (C3-DC) [Moles/volume] in Dried blood spot^LN||0.13|umol/L|<1.40|N|||F
+OBX|7|NM|53234-1^Carnitine free (C0)/Stearoylcarnitine (C18) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|8|NM|53235-8^Carnitine free (C0)/Palmitoylcarnitine (C16)+Stearoylcarnitine (C18) [Molar ratio] in Dried blood spot^LN||45.87|{Ratio}|<999|N|||F
+OBX|9|NM|53236-6^Carnitine.free (C0)+Acetylcarnitine (C2)+Propionylcarnitine (C3)+Palmitoylcarnitine (C16)+Oleoylcarnitine (C18:1)+Stearoylcarnitine (C18)/Citrulline [Molar ratio] in Dried blood spot^LN||0.09|{Ratio}|<999|N|||F
+OBX|10|NM|50157-7^Acetylcarnitine (C2) [Moles/volume] in Dried blood spot^LN||31.78|umol/L|<999|N|||F
+OBX|11|NM|53166-5^Butyrylcarnitine+Isobutyrylcarnitine (C4) [Moles/volume] in Dried blood spot^LN||0.84|umol/L|0.75-1.02|N|||N
+OBX|12|NM|53167-3^Butyrylcarnitine+Isobutyrylcarnitine (C4)/Acetylcarnitine (C2) [Molar ratio] in Dried blood spot^LN||0|{Ratio}|<999|N|||F
+OBX|13|NM|53168-1^Butyrylcarnitine+Isobutyrylcarnitine (C4)/Propionylcarnitine (C3) [Molar ratio] in Dried blood spot^LN||0.26|{Ratio}|<999|N|||F
+OBX|14|NM|53169-9^Butyrylcarnitine+Isobutyrylcarnitine (C4)/Octanoylcarnitine (C8) [Molar ratio] in Dried blood spot^LN||2.04|{Ratio}|<18.00|N|||F
+OBX|15|NM|50102-3^3-Hydroxybutyrylcarnitine (C4-OH) [Moles/volume] in Dried blood spot^LN||0.59|umol/L|0.43-0.66|N|||F
+OBX|16|NM|45211-0^Hexanoylcarnitine (C6) [Moles/volume] in Dried blood spot^LN||2.81|umol/L|<0.25|H|||F
+OBX|17|NM|53173-1^3-Hydroxyhexanoylcarnitine (C6-OH) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|18|NM|45207-8^Glutarylcarnitine (C5-DC) [Moles/volume] in Dried blood spot^LN||0.05|umol/L|<999|N|||F
+OBX|19|NM|53174-9^Octenoylcarnitine (C8:1) [Moles/volume] in Dried blood spot^LN||0.52|umol/L|0.21-0.7|N|||F
+OBX|20|NM|53175-6^Octanoylcarnitine (C8) [Moles/volume] in Dried blood spot^LN||19.71|umol/L|<0.25|H|||NF
+OBX|21|NM|53176-4^Octanoylcarnitine (C8)/Acetylcarnitine (C2) [Molar ratio] in Dried blood spot^LN||0.813|{Ratio}|<0.050|H|||F
+OBX|22|NM|53177-2^Octanoylcarnitine (C8)/Decanoylcarnitine (C10) [Molar ratio] in Dried blood spot^LN||11.324|{Ratio}|<4.000|H|||F
+OBX|23|NM|53178-0^3-Hydroxyoctanoylcarnitine (C8-OH)+Malonylcarnitine (C3-DC) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|24|NM|53402-4^3-Hydroxyoctanoylcarnitine (C8-OH)+Malonylcarnitine (C3-DC)/Butyrylcarnitine+Isobutyrylcarnitine (C4) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|25|NM|53179-8^3-Hydroxyoctanoylcarnitine (C8-OH)+Malonylcarnitine (C3-DC)/Decanoylcarnitine (C10) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|26|NM|53180-6^Decadienoylcarnitine (C10:2) [Moles/volume] in Dried blood spot^LN||0.07|umol/L|<0.12|N|||F
+OBX|27|NM|45198-9^Decenoylcarnitine (C10:1) [Moles/volume] in Dried blood spot^LN||0.71|umol/L|<0.20|H|||F
+OBX|28|NM|45197-1^Decanoylcarnitine (C10) [Moles/volume] in Dried blood spot^LN||0.31|umol/L|0.28-0.40|N|||F
+OBX|29|NM|53182-2^3-Hydroxydecenoylcarnitine (C10:1-OH) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|30|NM|53183-0^Glutarylcarnitine (C5-DC)+3-Hydroxydecanoylcarnitine (C10-OH) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|31|NM|53403-2^Glutarylcarnitine (C5-DC)+3-Hydroxydecanoylcarnitine (C10-OH)/Butyrylcarnitine+Isobutyrylcarnitine (C4) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|32|NM|53184-8^Glutarylcarnitine (C5-DC)+3-Hydroxydecanoylcarnitine (C10-OH)/3-Hydroxyisovalerylcarnitine (C5-OH) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|33|NM|53185-5^Glutarylcarnitine (C5-DC)+3-Hydroxydecanoylcarnitine (C10-OH)/Octanoylcarnitine (C8) [Molar ratio] in Dried blood spot^LN||3.63|{Ratio}|0.21-0.72|H|||F
+OBX|34|NM|53186-3^Glutarylcarnitine (C5-DC)+3-Hydroxydecanoylcarnitine (C10-OH)/Palmitoylcarnitine (C16) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|35|NM|45200-3^Dodecenoylcarnitine (C12:1) [Moles/volume] in Dried blood spot^LN||0.31|umol/L|0.28-0.50|N|||F
+OBX|36|NM|45199-7^Dodecanoylcarnitine (C12) [Moles/volume] in Dried blood spot^LN||0.77|umol/L|0.44-0.80|N|||F
+OBX|37|NM|53188-9^3-Hydroxydodecenoylcarnitine (C12:1-OH) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|38|NM|53189-7^3-Hydroxydodecanoylcarnitine (C12-OH) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|39|NM|53190-5^Tetradecadienoylcarnitine (C14:2) [Moles/volume] in Dried blood spot^LN||0.12|umol/L|0.09-0.15|N|||F
+OBX|40|NM|53191-3^Tetradecenoylcarnitine (C14:1) [Moles/volume] in Dried blood spot^LN||0.48|umol/L|0.37-0.71|N|||F
+OBX|41|NM|53192-1^Tetradecanoylcarnitine (C14) [Moles/volume] in Dried blood spot^LN||0.61|umol/L|0.50-0.80|N|||F
+OBX|42|NM|53193-9^Tetradecenoylcarnitine (C14:1)/Acetylcarnitine (C2) [Molar ratio] in Dried blood spot^LN||0.51|{Ratio}|0.37-.070|N|||F
+OBX|43|NM|53194-7^Tetradecenoylcarnitine (C14:1)/Dodecenoylcarnitine (C12:1) [Molar ratio] in Dried blood spot^LN||1.53|{Ratio}|<999|N|||F
+OBX|44|NM|53195-4^Tetradecenoylcarnitine (C14:1)/Palmitoylcarnitine (C16) [Molar ratio] in Dried blood spot^LN||0.47|{Ratio}|0.37-0.70|N|||F
+OBX|45|NM|53196-2^3-Hydroxytetradecadienoylcarnitine (C14:2-OH) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|46|NM|53197-0^3-Hydroxytetradecenoylcarnitine (C14:1-OH) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|47|NM|50281-5^3-Hydroxytetradecanoylcarnitine (C14-OH) [Moles/volume] in Dried blood spot^LN||0.09|umol/L|<999|N|||F
+OBX|48|NM|53198-8^Palmitoleylcarnitine (C16:1) [Moles/volume] in Dried blood spot^LN||0.09|umol/L|<999|N|||F
+OBX|49|NM|53199-6^Palmitoylcarnitine (C16) [Moles/volume] in Dried blood spot^LN||6.13|umol/L|5.86-7.16|N|||F
+OBX|50|NM|50121-3^3-Hydroxypalmitoleylcarnitine (C16:1-OH) [Moles/volume] in Dried blood spot^LN||0.13|umol/L|0.10-0.15|N|||F
+OBX|51|NM|50125-4^3-Hydroxypalmitoylcarnitine (C16-OH) [Moles/volume] in Dried blood spot^LN||0.17|umol/L|0.09-0.19|N|||F
+OBX|52|NM|53201-0^3-Hydroxypalmitoylcarnitine (C16-OH)/Palmitoylcarnitine (C16) [Molar ratio] in Dried blood spot^LN||0.03|{Ratio}|<0.20|N|||F
+OBX|53|NM|45217-7^Linoleoylcarnitine (C18:2) [Moles/volume] in Dried blood spot^LN||0.63|umol/L|0.62-0.65|N|||F
+OBX|54|NM|53202-8^Oleoylcarnitine (C18:1) [Moles/volume] in Dried blood spot^LN||2.42|umol/L|2.39-2.50|N|||F
+OBX|55|NM|53241-6^Stearoylcarnitine (C18) [Moles/volume] in Dried blood spot^LN||0.26|umol/L|<0.31|N|||F
+OBX|56|NM|53400-8^Stearoylcarnitine (C18)/Propionylcarnitine (C3) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|57|NM|50109-8^3-Hydroxylinoleoylcarnitine (C18:2-OH) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|58|NM|50113-0^3-Hydroxyoleoylcarnitine (C18:1-OH) [Moles/volume] in Dried blood spot^LN||0.09|umol/L|0.08-0.10|N|||F
+OBX|59|NM|50132-0^3-Hydroxystearoylcarnitine (C18-OH) [Moles/volume] in Dried blood spot^LN||0.08|umol/L|0.07-0.10|N|||F
+OBR|8|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|57085-3^Organic acid newborn screen panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|46744-9^Organic acidemias newborn screen interpretation^LN||LA18592-8^In range^LN|||N|||F
+OBX|2|CE|57791-6^Organic acidemia conditions suspected [Identifier] in Dried blood spot^LN||LA137-2^None^LN|||N|||F
+OBX|3|TX|57708-0^Organic acidemias defects newborn screening comment-discussion^LN||Any baby with clinical features suggestive of a metabolic disorder requires clinical and diagnostic follow-up regardless of whether the NBS result is normal or abnormal.|||N|||F
+OBX|4|NM|50157-7^Acetylcarnitine (C2) [Moles/volume] in Dried blood spot^LN||31.78|umol/L|<999|N|||F
+OBX|5|NM|53237-4^Acrylylcarnitine (C3:1) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||N
+OBX|6|NM|53160-8^Propionylcarnitine (C3) [Moles/volume] in Dried blood spot^LN||5.17|umol/L|4.62-5.50|N|||F
+OBX|7|NM|53161-6^Propionylcarnitine (C3)/Methionine [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|8|NM|53162-4^Propionylcarnitine (C3)/Carnitine.free (C0) [Molar ratio] in Dried blood spot^LN||0.03|{Ratio}|<999|N|||F
+OBX|9|NM|53163-2^Propionylcarnitine (C3)/Acetylcarnitine (C2) [Molar ratio] in Dried blood spot^LN||0.15|{Ratio}|<999|N|||F
+OBX|10|NM|54462-7^Malonylcarnitine (C3-DC) [Moles/volume] in Dried blood spot^LN||0.13|umol/L|<1.40|N|||F
+OBX|11|NM|53164-0^Propionylcarnitine (C3)/Palmitoylcarnitine (C16) [Molar ratio] in Dried blood spot^LN||0.69|{Ratio}|<2.0|N|||F
+OBX|12|NM|53166-5^Butyrylcarnitine+Isobutyrylcarnitine (C4) [Moles/volume] in Dried blood spot^LN||0.84|umol/L|0.75-1.02|N|||F
+OBX|13|NM|53167-3^Butyrylcarnitine+Isobutyrylcarnitine (C4)/Acetylcarnitine (C2) [Molar ratio] in Dried blood spot^LN||0|{Ratio}|<999|N|||F
+OBX|14|NM|53168-1^Butyrylcarnitine+Isobutyrylcarnitine (C4)/Propionylcarnitine (C3) [Molar ratio] in Dried blood spot^LN||0.26|{Ratio}|<999|N|||F
+OBX|15|NM|53169-9^Butyrylcarnitine+Isobutyrylcarnitine (C4)/Octanoylcarnitine (C8) [Molar ratio] in Dried blood spot^LN||2.04|{Ratio}|<18.00|N|||F
+OBX|16|NM|53170-7^Tiglylcarnitine (C5:1) [Moles/volume] in Dried blood spot^LN||0.1|umol/L|0.09-0.24|N|||F
+OBX|17|NM|45207-8^Glutarylcarnitine (C5-DC) [Moles/volume] in Dried blood spot^LN||0.05|umol/L|<999|N|||F
+OBX|18|NM|45216-9^Isovalerylcarnitine+Methylbutyrylcarnitine (C5) [Moles/volume] in Dried blood spot^LN||0.43|umol/L|0.39-0.48|N|||F
+OBX|19|NM|53238-2^Isovalerylcarnitine+Methylbutyrylcarnitine (C5)/Carnitine.free (C0) [Molar ratio] in Dried blood spot^LN||0.00|{Ratio}|<0.05|N|||F
+OBX|20|NM|53239-0^Isovalerylcarnitine+Methylbutyrylcarnitine (C5)/Acetylcarnitine (C2) [Molar ratio] in Dried blood spot^LN||0.00|{Ratio}|<0.04|N|||F
+OBX|21|NM|53240-8^Isovalerylcarnitine+Methylbutyrylcarnitine (C5)/Propionylcarnitine (C3) [Molar ratio] in Dried blood spot^LN||0.31|{Ratio}|<999|N|||F
+OBX|22|NM|53401-6^Isovalerylcarnitine+Methylbutyrylcarnitine (C5)/Octanoylcarnitine (C8) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|23|NM|50106-4^3-Hydroxyisovalerylcarnitine (C5-OH) [Moles/volume] in Dried blood spot^LN||0.26|umol/L|<999|N|||F
+OBX|24|NM|53171-5^3-Hydroxyisovalerylcarnitine (C5-OH)/Carnitine.free (C0) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|25|NM|53172-3^3-Hydroxyisovalerylcarnitine (C5-OH)/Octanoylcarnitine (C8) [Molar ratio] in Dried blood spot^LN||0.436|{Ratio}|0.35-0.70|N|||F
+OBX|26|NM|53178-0^3-Hydroxyoctanoylcarnitine (C8-OH)+Malonylcarnitine (C3-DC) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|27|NM|53402-4^3-Hydroxyoctanoylcarnitine (C8-OH)+Malonylcarnitine (C3-DC)/Butyrylcarnitine+Isobutyrylcarnitine (C4) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|28|NM|53179-8^3-Hydroxyoctanoylcarnitine (C8-OH)+Malonylcarnitine (C3-DC)/Decanoylcarnitine (C10) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|29|NM|45222-7^Methylmalonylcarnitine (C4-DC) [Moles/volume] in Dried blood spot^LN||3.16|umol/L|<999|N|||F
+OBX|30|NM|53181-4^Methylmalonylcarnitine (C4-DC)/3-Hydroxyisovalerylcarnitine (C5-OH) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|31|NM|53183-0^Glutarylcarnitine (C5-DC)+3-Hydroxydecanoylcarnitine (C10-OH) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|32|NM|53403-2^Glutarylcarnitine (C5-DC)+3-Hydroxydecanoylcarnitine (C10-OH)/Butyrylcarnitine+Isobutyrylcarnitine (C4) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|33|NM|53184-8^Glutarylcarnitine (C5-DC)+3-Hydroxydecanoylcarnitine (C10-OH)/3-Hydroxyisovalerylcarnitine (C5-OH) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|34|NM|53185-5^Glutarylcarnitine (C5-DC)+3-Hydroxydecanoylcarnitine (C10-OH)/Octanoylcarnitine (C8) [Molar ratio] in Dried blood spot^LN||3.63|{Ratio}|0.21-0.72|H|||F
+OBX|35|NM|53186-3^Glutarylcarnitine (C5-DC)+3-Hydroxydecanoylcarnitine (C10-OH)/Palmitoylcarnitine (C16) [Molar ratio] in Dried blood spot^LN||99|{Ratio}|<999|N|||F
+OBX|36|NM|53187-1^Methylglutarylcarnitine (C6-DC) [Moles/volume] in Dried blood spot^LN||0.11|umol/L|0.10-0.12|N|||F
+OBX|37|NM|53165-7^Formiminoglutamate [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBX|38|NM|67708-8^Malonylcarnitine (C3-DC)+3-Hydroxybutyrylcarnitine (C4-OH) [Moles/volume] in Dried blood spot^LN||0.26|umol/L|<999|N|||F
+OBX|39|NM|67709-6^Methylmalonylcarnitine (C4-DC)+3-Hydroxyisovalerylcarnitine (C5-OH) [Moles/volume] in Dried blood spot^LN||3.16|umol/L|<999|N|||F
+OBX|40|NM|67710-4^Glutarylcarnitine (C5-DC)+3-Hydroxyhexanoylcarnitine (C6-OH) [Moles/volume] in Dried blood spot^LN||99|umol/L|<999|N|||F
+OBR|9|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|54078-1^Cystic fibrosis newborn screening panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|46769-6^Cystic fibrosis newborn screen interpretation^LN||LA18592-8^In range^LN|||N|||F
+OBX|2|TX|57707-2^Cystic fibrosis newborn screening comment-discussion^LN||No evidence of cystic fibrosis. CF mutation analysis not performed. Further testing is only required if there is clinical suspicion of cystic fibrosis. Symptoms include poor growth, loose stools or evidence of malabsorption, persistent cough, or respiratory concerns.|||N|||F
+OBX|3|NM|2077-6^Chloride [Moles/volume] in Sweat^LN||99|mmol/L|<999|N|||F
+OBX|4|NM|48633-2^Trypsinogen I Free [Mass/volume] in Dried blood spot^LN||99|ug/L|<999|N|||F
+OBR|10|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|54076-5^Endocrine newborn screening panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBR|11|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|57086-1^Congenital adrenal hyperplasia (CAH) newborn screening panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|46758-9^Congenital adrenal hyperplasia newborn screen interpretation^LN||LA18592-8^In range^LN|||N|||F
+OBX|2|NM|53347-1^11-Deoxycorticosterone [Mass/volume] in Dried blood spot^LN||99|ng/dL|<999|N|||F
+OBX|3|NM|53338-0^11-Deoxycortisol [Mass/volume] in Dried blood spot^LN||99|ug/dL|<999|N|||F
+OBX|4|NM|38473-5^17-Hydroxyprogesterone [Mass/volume] in Dried blood spot^LN||182|ng/mL|<190|N|||F
+OBX|5|NM|53336-4^17-Hydroxyprogesterone+Androstenedione/Cortisol [Mass Ratio] in Dried blood spot^LN||99|{ratio}|<999|N|||F
+OBX|6|NM|53341-4^21-Deoxycortisol [Mass/volume] in Dried blood spot^LN||99|ug/dL|<999|N|||F
+OBX|7|NM|53343-0^Androstenedione [Mass/volume] in Dried blood spot^LN||99|ng/dL|<999|N|||F
+OBX|8|NM|53345-5^Cortisol [Mass/volume] in Dried blood spot^LN||99|ug/dL|<999|N|||F
+OBR|12|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|54090-6^Thyroid newborn screening panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|46762-1^Congenital hypothyroidism newborn screen interpretation^LN||LA18592-8^In range^LN|||N|||F
+OBX|2|TX|57705-6^Congenital hypothyroidism newborn screening comment-discussion^LN||Any baby with clinical features suggestive of a metabolic disorder requires clinical and diagnostic follow-up regardless of whether the NBS result is normal or abnormal.|||N|||F
+OBX|3|NM|31144-9^Thyroxine (T4) [Mass/volume] in Dried blood spot^LN||10.36|ug/dL|<25|N|||F
+OBX|4|NM|29575-8^Thyrotropin [Units/volume] in Dried blood spot^LN||1.2|m[IU]/L|<8|N|||F
+OBR|13|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|54079-9^Galactosemia newborn screening panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|46737-3^Galactosemias newborn screen interpretation^LN||LA18592-8^In range^LN|||N|||F
+OBX|2|TX|57704-9^Galactosemias newborn screening comment-discussion^LN||Any baby with clinical features suggestive of a metabolic disorder requires clinical and diagnostic follow-up regardless of whether the NBS result is normal or abnormal.|||N|||F
+OBX|3|NM|54084-9^Galactose [Mass/volume] in Dried blood spot^LN||1.6|mg/dL|<11|N|||F
+OBX|4|NM|42906-8^Galactose 1 phosphate uridyl transferase [Enzymatic activity/volume] in Dried blood spot^LN||99|U/g{Hb}|<999|N|||F
+OBX|5|NM|40842-7^Galactose 1 phosphate [Mass/volume] in Dried blood spot^LN||99|mg/dL|<999|N|||F
+OBR|14|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|54081-5^Hemoglobinopathies newborn screening panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|46740-7^Hemoglobin disorders newborn screen interpretation^LN||LA18593-6^Out of range^LN|||N|||F
+OBX|2|TX|57703-1^Hemoglobin disorders newborn screening comment-discussion^LN||An unidentified hemoglobin was detected that cannot be interpreted by newborn screening. Suggest hematology referral and diagnostic testing at an appropriate age.|||N|||F
+OBR|15|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|64116-7^Hemoglobin observations newborn screening panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|64117-5^Most predominant hemoglobin in Dried blood spot^LN||LA16208-3^Hb F^LN|||N|||F
+OBX|2|CE|64118-3^Second most predominant hemoglobin in Dried blood spot^LN||LA16223-2^Hb unidentified^LN|||N|||F
+OBX|3|CE|64122-5^Hemoglobins that can be presumptively identified based on available controls in Dried blood spot^LN|1|LA16208-3^Hb F^LN|||N|||F
+OBX|4|CE|64122-5^Hemoglobins that can be presumptively identified based on available controls in Dried blood spot^LN|2|LA16209-1^Hb A^LN|||N|||F
+OBX|5|CE|64122-5^Hemoglobins that can be presumptively identified based on available controls in Dried blood spot^LN|3|LA13002-3^Hb C^LN|||N|||F
+OBX|6|CE|64122-5^Hemoglobins that can be presumptively identified based on available controls in Dried blood spot^LN|4|LA13003-1^Hb D^LN|||N|||F
+OBX|7|CE|64122-5^Hemoglobins that can be presumptively identified based on available controls in Dried blood spot^LN|5|LA13005-6^Hb E^LN|||N|||F
+OBX|8|CE|64122-5^Hemoglobins that can be presumptively identified based on available controls in Dried blood spot^LN|6|LA16218-2^Hb G^LN|||N|||F
+OBX|9|CE|64122-5^Hemoglobins that can be presumptively identified based on available controls in Dried blood spot^LN|7|LA16220-8^Hb H^LN|||N|||F
+OBX|10|CE|64122-5^Hemoglobins that can be presumptively identified based on available controls in Dried blood spot^LN|8|LA16222-4^Hb O-Arab^LN|||N|||F
+OBX|11|CE|64122-5^Hemoglobins that can be presumptively identified based on available controls in Dried blood spot^LN|9|LA13007-2^Hb S^LN|||N|||F
+OBX|12|CE|64122-5^Hemoglobins that can be presumptively identified based on available controls in Dried blood spot^LN|10|LA16223-2^Hb unidentified^LN|||N|||F
+OBR|16|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|57087-9^Biotinidase newborn screening panel^LN|||201010141853|||^VH||||201010151121||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|46761-3^Biotinidase deficiency newborn screen interpretation^LN||LA4259-3^Borderline^LN|||A|||F
+OBX|2|TX|57699-1^Biotinidase deficiency newborn screening comment-discussion^LN||Borderline abnormal screen for biotinidase deficiency (BIOT). Slightly decreased biotinidase activity, unlikely to be significant. Suggest clinical follow-up and repeat newborn metabolic screen.|||A|||F
+OBX|3|ST|38478-4^Biotinidase [Presence] in Dried blood spot^LN||reduced enzyme activity|||A|||F
+OBR|17|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|62333-0^Severe combined newborn screening immunodeficiency (SCID) panel in Dried blood spot^LN|||201010141853|||^VH||||201010140920||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201101051142|||F
+OBX|1|CE|62321-5^Severe combined immunodeficiency newborn screen interpretation^LN||LA18592-8^In range^LN|||N|||F
+OBX|2|TX|62322-3^Severe combined immunodeficiency newborn screening comment-discussion^LN||Any baby with clinical features suggestive of an immune system disorder requires clinical and diagnostic follow-up regardless of whether the NBS result is normal or abnormal.|||N|||F
+OBX|3|NM|62320-7^T-cell receptor excision circle [#/volume] in Dried blood spot by Probe and target amplification method^LN||100|{copies}|>60|N|||F
+OBR|18|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|73738-7^Newborn screening test results panel - Point of Care^LN|||201010141853|||^VH||||||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBR|19|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|54111-0^Newborn hearing loss panel^LN|||201010141853|||^VH||||||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|TX|57700-7^Hearing loss newborn screening comment/discussion^LN||Any baby with clinical features suggestive of hearing loss requires clinical and diagnostic follow-up regardless of whether the NMS result is normal or abnormal.|||N|||F
+OBX|2|CE|54106-0^Newborn hearing screen method^LN||LA10388-9^Auditory brain stem response^LN|||N|||F
+OBR|20|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|73744-5^Newborn hearing screen panel of Ear - right^LN|||201010141853|||^VH||||||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|54109-4^Newborn hearing screen of Ear - right^LN||LA10392-1^Pass^LN|||N|||F
+OBR|21|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|73741-1^Newborn hearing screen panel of Ear - left^LN|||201010141853|||^VH||||||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|54108-6^Newborn hearing screen of Ear - left^LN||LA10392-1^Pass^LN|||N|||F
+OBR|22|128993^ST ELSEWHERE HOSPITAL^9999999999^NPI|999555^TNSPHLAB^77D7777777^CLIA|73805-4^CCHD newborn screening panel^LN|||201010141853|||^VH||||||1111111111^Smiles^Minnie^^^Dr^^^NPI&2.16.840.1.113883.4.6&ISO^L^^^NPI^^^^^^^^MD||||||201010160918|||F
+OBX|1|CE|73700-7^CCHD newborn screening interpretation^LN||LA18592-8^In range^LN|||N|||F
+OBX|2|NM|73806-2^Newborn age in hours^LN||36|h||N|||F
+OBX|3|CE|73699-1^Number of prior CCHD screens [#] Qualitative^LN||LA6111-4^0^LN|||N|||F
+OBX|4|NM|59407-7^Oxygen saturation in Blood Preductal by Pulse oximetry^LN||99|%|>95|N|||F
+OBX|5|CE|73796-5^Infant activity during preductal oxygen saturation measurement^LN||LA19830-1^Awake and quiet^LN|||N|||F
+OBX|6|NM|59418-4^Oxygen saturation in Blood Postductal by Pulse oximetry^LN||97|%|>95|N|||F
+OBX|7|CE|73792-4^Infant activity during postductal oxygen saturation measurement^LN||LA11864-8^Sleeping^LN|||N|||F
+OBX|8|NM|73696-7^Oxygen saturation.preductal-oxygen saturation.postductal [Mass fraction difference] in Bld.preductal and Bld.postductal^LN||2|%|<3|N|||F

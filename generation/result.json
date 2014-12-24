@@ -27,7 +27,10 @@
        "Field Separator"
       ]
      },
-     "$type": "field"
+     "type": "ST",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.2",
@@ -48,7 +51,10 @@
        "Encoding Characters"
       ]
      },
-     "$type": "field"
+     "type": "ST",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.3",
@@ -72,7 +78,10 @@
        "Sending Application"
       ]
      },
-     "$type": "field"
+     "type": "HD",
+     "table": "HL70361",
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.4",
@@ -96,7 +105,10 @@
        "Sending Facility"
       ]
      },
-     "$type": "field"
+     "type": "HD",
+     "table": "HL70362",
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.5",
@@ -120,7 +132,10 @@
        "Receiving Application"
       ]
      },
-     "$type": "field"
+     "type": "HD",
+     "table": "HL70361",
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.6",
@@ -144,7 +159,10 @@
        "Receiving Facility"
       ]
      },
-     "$type": "field"
+     "type": "HD",
+     "table": "HL70362",
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.7",
@@ -165,7 +183,10 @@
        "Date/Time Of Message"
       ]
      },
-     "$type": "field"
+     "type": "TS",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.8",
@@ -186,7 +207,10 @@
        "Security"
       ]
      },
-     "$type": "field"
+     "type": "ST",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.9",
@@ -207,7 +231,10 @@
        "Message Type"
       ]
      },
-     "$type": "field"
+     "type": "MSG",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.10",
@@ -228,7 +255,10 @@
        "Message Control ID"
       ]
      },
-     "$type": "field"
+     "type": "ST",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.11",
@@ -249,7 +279,10 @@
        "Processing ID"
       ]
      },
-     "$type": "field"
+     "type": "PT",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.12",
@@ -270,7 +303,10 @@
        "Version ID"
       ]
      },
-     "$type": "field"
+     "type": "VID",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.13",
@@ -291,7 +327,10 @@
        "Sequence Number"
       ]
      },
-     "$type": "field"
+     "type": "NM",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.14",
@@ -312,7 +351,10 @@
        "Continuation Pointer"
       ]
      },
-     "$type": "field"
+     "type": "ST",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.15",
@@ -336,7 +378,10 @@
        "Accept Acknowledgment Type"
       ]
      },
-     "$type": "field"
+     "type": "ID",
+     "table": "HL70155",
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.16",
@@ -360,7 +405,10 @@
        "Application Acknowledgment Type"
       ]
      },
-     "$type": "field"
+     "type": "ID",
+     "table": "HL70155",
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.17",
@@ -384,7 +432,10 @@
        "Country Code"
       ]
      },
-     "$type": "field"
+     "type": "ID",
+     "table": "HL70399",
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.18",
@@ -408,7 +459,10 @@
        "Character Set"
       ]
      },
-     "$type": "field"
+     "type": "ID",
+     "table": "HL70211",
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.19",
@@ -429,7 +483,10 @@
        "Principal Language Of Message"
       ]
      },
-     "$type": "field"
+     "type": "CE",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.20",
@@ -453,7 +510,10 @@
        "Alternate Character Set Handling Scheme"
       ]
      },
-     "$type": "field"
+     "type": "ID",
+     "table": "HL70356",
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "MSH.21",
@@ -474,7 +534,10 @@
        "Message Profile Identifier"
       ]
      },
-     "$type": "field"
+     "type": "EI",
+     "table": null,
+     "$type": "field",
+     "elems": []
     }
    ]
   },
@@ -503,7 +566,10 @@
        "Software Vendor Organization"
       ]
      },
-     "$type": "field"
+     "type": "XON",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "SFT.2",
@@ -524,7 +590,10 @@
        "Software Certified Version or Release Number"
       ]
      },
-     "$type": "field"
+     "type": "ST",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "SFT.3",
@@ -545,7 +614,10 @@
        "Software Product Name"
       ]
      },
-     "$type": "field"
+     "type": "ST",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "SFT.4",
@@ -566,7 +638,10 @@
        "Software Binary ID"
       ]
      },
-     "$type": "field"
+     "type": "ST",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "SFT.5",
@@ -587,7 +662,10 @@
        "Software Product Information"
       ]
      },
-     "$type": "field"
+     "type": "TX",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "SFT.6",
@@ -608,7 +686,10 @@
        "Software Install Date"
       ]
      },
-     "$type": "field"
+     "type": "TS",
+     "table": null,
+     "$type": "field",
+     "elems": []
     }
    ]
   },
@@ -649,7 +730,10 @@
            "Set ID - PID"
           ]
          },
-         "$type": "field"
+         "type": "SI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.2",
@@ -670,7 +754,10 @@
            "Patient ID"
           ]
          },
-         "$type": "field"
+         "type": "CX",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.3",
@@ -691,7 +778,10 @@
            "Patient Identifier List"
           ]
          },
-         "$type": "field"
+         "type": "CX",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.4",
@@ -712,7 +802,10 @@
            "Alternate Patient ID - PID"
           ]
          },
-         "$type": "field"
+         "type": "CX",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.5",
@@ -733,7 +826,10 @@
            "Patient Name"
           ]
          },
-         "$type": "field"
+         "type": "XPN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.6",
@@ -754,7 +850,10 @@
            "Mother's Maiden Name"
           ]
          },
-         "$type": "field"
+         "type": "XPN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.7",
@@ -775,7 +874,10 @@
            "Date/Time of Birth"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.8",
@@ -799,7 +901,10 @@
            "Administrative Sex"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70001",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.9",
@@ -820,7 +925,10 @@
            "Patient Alias"
           ]
          },
-         "$type": "field"
+         "type": "XPN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.10",
@@ -844,7 +952,10 @@
            "Race"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70005",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.11",
@@ -865,7 +976,10 @@
            "Patient Address"
           ]
          },
-         "$type": "field"
+         "type": "XAD",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.12",
@@ -889,7 +1003,10 @@
            "County Code"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70289",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.13",
@@ -910,7 +1027,10 @@
            "Phone Number - Home"
           ]
          },
-         "$type": "field"
+         "type": "XTN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.14",
@@ -931,7 +1051,10 @@
            "Phone Number - Business"
           ]
          },
-         "$type": "field"
+         "type": "XTN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.15",
@@ -955,7 +1078,10 @@
            "Primary Language"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70296",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.16",
@@ -979,7 +1105,10 @@
            "Marital Status"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70002",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.17",
@@ -1003,7 +1132,10 @@
            "Religion"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70006",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.18",
@@ -1024,7 +1156,10 @@
            "Patient Account Number"
           ]
          },
-         "$type": "field"
+         "type": "CX",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.19",
@@ -1045,7 +1180,10 @@
            "SSN Number - Patient"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.20",
@@ -1066,7 +1204,10 @@
            "Driver's License Number - Patient"
           ]
          },
-         "$type": "field"
+         "type": "DLN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.21",
@@ -1087,7 +1228,10 @@
            "Mother's Identifier"
           ]
          },
-         "$type": "field"
+         "type": "CX",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.22",
@@ -1111,7 +1255,10 @@
            "Ethnic Group"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70189",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.23",
@@ -1132,7 +1279,10 @@
            "Birth Place"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.24",
@@ -1156,7 +1306,10 @@
            "Multiple Birth Indicator"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70136",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.25",
@@ -1177,7 +1330,10 @@
            "Birth Order"
           ]
          },
-         "$type": "field"
+         "type": "NM",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.26",
@@ -1201,7 +1357,10 @@
            "Citizenship"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70171",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.27",
@@ -1225,7 +1384,10 @@
            "Veterans Military Status"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70172",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.28",
@@ -1249,7 +1411,10 @@
            "Nationality"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70212",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.29",
@@ -1270,7 +1435,10 @@
            "Patient Death Date and Time"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.30",
@@ -1294,7 +1462,10 @@
            "Patient Death Indicator"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70136",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.31",
@@ -1318,7 +1489,10 @@
            "Identity Unknown Indicator"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70136",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.32",
@@ -1342,7 +1516,10 @@
            "Identity Reliability Code"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70445",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.33",
@@ -1363,7 +1540,10 @@
            "Last Update Date/Time"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.34",
@@ -1384,7 +1564,10 @@
            "Last Update Facility"
           ]
          },
-         "$type": "field"
+         "type": "HD",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.35",
@@ -1408,7 +1591,10 @@
            "Species Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70446",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.36",
@@ -1432,7 +1618,10 @@
            "Breed Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70447",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.37",
@@ -1453,7 +1642,10 @@
            "Strain"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.38",
@@ -1477,7 +1669,10 @@
            "Production Class Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70429",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PID.39",
@@ -1501,7 +1696,10 @@
            "Tribal Citizenship"
           ]
          },
-         "$type": "field"
+         "type": "CWE",
+         "table": "HL70171",
+         "$type": "field",
+         "elems": []
         }
        ]
       },
@@ -1533,7 +1731,10 @@
            "Living Dependency"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70223",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.2",
@@ -1557,7 +1758,10 @@
            "Living Arrangement"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70220",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.3",
@@ -1578,7 +1782,10 @@
            "Patient Primary Facility"
           ]
          },
-         "$type": "field"
+         "type": "XON",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.4",
@@ -1599,7 +1806,10 @@
            "Patient Primary Care Provider Name & ID No."
           ]
          },
-         "$type": "field"
+         "type": "XCN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.5",
@@ -1623,7 +1833,10 @@
            "Student Indicator"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70231",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.6",
@@ -1647,7 +1860,10 @@
            "Handicap"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70295",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.7",
@@ -1671,7 +1887,10 @@
            "Living Will Code"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70315",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.8",
@@ -1695,7 +1914,10 @@
            "Organ Donor Code"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70316",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.9",
@@ -1719,7 +1941,10 @@
            "Separate Bill"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70136",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.10",
@@ -1740,7 +1965,10 @@
            "Duplicate Patient"
           ]
          },
-         "$type": "field"
+         "type": "CX",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.11",
@@ -1764,7 +1992,10 @@
            "Publicity Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70215",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.12",
@@ -1788,7 +2019,10 @@
            "Protection Indicator"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70136",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.13",
@@ -1809,7 +2043,10 @@
            "Protection Indicator Effective Date"
           ]
          },
-         "$type": "field"
+         "type": "DT",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.14",
@@ -1830,7 +2067,10 @@
            "Place of Worship"
           ]
          },
-         "$type": "field"
+         "type": "XON",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.15",
@@ -1854,7 +2094,10 @@
            "Advance Directive Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70435",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.16",
@@ -1878,7 +2121,10 @@
            "Immunization Registry Status"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70441",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.17",
@@ -1899,7 +2145,10 @@
            "Immunization Registry Status Effective Date"
           ]
          },
-         "$type": "field"
+         "type": "DT",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.18",
@@ -1920,7 +2169,10 @@
            "Publicity Code Effective Date"
           ]
          },
-         "$type": "field"
+         "type": "DT",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.19",
@@ -1944,7 +2196,10 @@
            "Military Branch"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70140",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.20",
@@ -1968,7 +2223,10 @@
            "Military Rank/Grade"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70141",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "PD1.21",
@@ -1992,7 +2250,10 @@
            "Military Status"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70142",
+         "$type": "field",
+         "elems": []
         }
        ]
       },
@@ -2021,7 +2282,10 @@
            "Set ID - NTE"
           ]
          },
-         "$type": "field"
+         "type": "SI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NTE.2",
@@ -2045,7 +2309,10 @@
            "Source of Comment"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70105",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NTE.3",
@@ -2066,7 +2333,10 @@
            "Comment"
           ]
          },
-         "$type": "field"
+         "type": "FT",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NTE.4",
@@ -2090,7 +2360,10 @@
            "Comment Type"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70364",
+         "$type": "field",
+         "elems": []
         }
        ]
       },
@@ -2119,7 +2392,10 @@
            "Set ID - NK1"
           ]
          },
-         "$type": "field"
+         "type": "SI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.2",
@@ -2140,7 +2416,10 @@
            "Name"
           ]
          },
-         "$type": "field"
+         "type": "XPN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.3",
@@ -2164,7 +2443,10 @@
            "Relationship"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70063",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.4",
@@ -2185,7 +2467,10 @@
            "Address"
           ]
          },
-         "$type": "field"
+         "type": "XAD",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.5",
@@ -2206,7 +2491,10 @@
            "Phone Number"
           ]
          },
-         "$type": "field"
+         "type": "XTN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.6",
@@ -2227,7 +2515,10 @@
            "Business Phone Number"
           ]
          },
-         "$type": "field"
+         "type": "XTN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.7",
@@ -2251,7 +2542,10 @@
            "Contact Role"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70131",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.8",
@@ -2272,7 +2566,10 @@
            "Start Date"
           ]
          },
-         "$type": "field"
+         "type": "DT",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.9",
@@ -2293,7 +2590,10 @@
            "End Date"
           ]
          },
-         "$type": "field"
+         "type": "DT",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.10",
@@ -2314,7 +2614,10 @@
            "Next of Kin / Associated Parties Job Title"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.11",
@@ -2338,7 +2641,10 @@
            "Next of Kin / Associated Parties Job Code/Class"
           ]
          },
-         "$type": "field"
+         "type": "JCC",
+         "table": "HL70327",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.12",
@@ -2359,7 +2665,10 @@
            "Next of Kin / Associated Parties Employee Number"
           ]
          },
-         "$type": "field"
+         "type": "CX",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.13",
@@ -2380,7 +2689,10 @@
            "Organization Name - NK1"
           ]
          },
-         "$type": "field"
+         "type": "XON",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.14",
@@ -2404,7 +2716,10 @@
            "Marital Status"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70002",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.15",
@@ -2428,7 +2743,10 @@
            "Administrative Sex"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70001",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.16",
@@ -2449,7 +2767,10 @@
            "Date/Time of Birth"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.17",
@@ -2473,7 +2794,10 @@
            "Living Dependency"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70223",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.18",
@@ -2497,7 +2821,10 @@
            "Ambulatory Status"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70009",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.19",
@@ -2521,7 +2848,10 @@
            "Citizenship"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70171",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.20",
@@ -2545,7 +2875,10 @@
            "Primary Language"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70296",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.21",
@@ -2569,7 +2902,10 @@
            "Living Arrangement"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70220",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.22",
@@ -2593,7 +2929,10 @@
            "Publicity Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70215",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.23",
@@ -2617,7 +2956,10 @@
            "Protection Indicator"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70136",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.24",
@@ -2641,7 +2983,10 @@
            "Student Indicator"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70231",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.25",
@@ -2665,7 +3010,10 @@
            "Religion"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70006",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.26",
@@ -2686,7 +3034,10 @@
            "Mother's Maiden Name"
           ]
          },
-         "$type": "field"
+         "type": "XPN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.27",
@@ -2710,7 +3061,10 @@
            "Nationality"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70212",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.28",
@@ -2734,7 +3088,10 @@
            "Ethnic Group"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70189",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.29",
@@ -2758,7 +3115,10 @@
            "Contact Reason"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70222",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.30",
@@ -2779,7 +3139,10 @@
            "Contact Person's Name"
           ]
          },
-         "$type": "field"
+         "type": "XPN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.31",
@@ -2800,7 +3163,10 @@
            "Contact Person's Telephone Number"
           ]
          },
-         "$type": "field"
+         "type": "XTN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.32",
@@ -2821,7 +3187,10 @@
            "Contact Person's Address"
           ]
          },
-         "$type": "field"
+         "type": "XAD",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.33",
@@ -2842,7 +3211,10 @@
            "Next of Kin/Associated Party's Identifiers"
           ]
          },
-         "$type": "field"
+         "type": "CX",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.34",
@@ -2866,7 +3238,10 @@
            "Job Status"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70311",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.35",
@@ -2890,7 +3265,10 @@
            "Race"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70005",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.36",
@@ -2914,7 +3292,10 @@
            "Handicap"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70295",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.37",
@@ -2935,7 +3316,10 @@
            "Contact Person Social Security Number"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.38",
@@ -2956,7 +3340,10 @@
            "Next of Kin Birth Place"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NK1.39",
@@ -2980,7 +3367,10 @@
            "VIP Indicator"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70099",
+         "$type": "field",
+         "elems": []
         }
        ]
       },
@@ -3015,7 +3405,10 @@
              "Set ID - PV1"
             ]
            },
-           "$type": "field"
+           "type": "SI",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.2",
@@ -3039,7 +3432,10 @@
              "Patient Class"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70004",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.3",
@@ -3060,7 +3456,10 @@
              "Assigned Patient Location"
             ]
            },
-           "$type": "field"
+           "type": "PL",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.4",
@@ -3084,7 +3483,10 @@
              "Admission Type"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70007",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.5",
@@ -3105,7 +3507,10 @@
              "Preadmit Number"
             ]
            },
-           "$type": "field"
+           "type": "CX",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.6",
@@ -3126,7 +3531,10 @@
              "Prior Patient Location"
             ]
            },
-           "$type": "field"
+           "type": "PL",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.7",
@@ -3150,7 +3558,10 @@
              "Attending Doctor"
             ]
            },
-           "$type": "field"
+           "type": "XCN",
+           "table": "HL70010",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.8",
@@ -3174,7 +3585,10 @@
              "Referring Doctor"
             ]
            },
-           "$type": "field"
+           "type": "XCN",
+           "table": "HL70010",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.9",
@@ -3198,7 +3612,10 @@
              "Consulting Doctor"
             ]
            },
-           "$type": "field"
+           "type": "XCN",
+           "table": "HL70010",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.10",
@@ -3222,7 +3639,10 @@
              "Hospital Service"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70069",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.11",
@@ -3243,7 +3663,10 @@
              "Temporary Location"
             ]
            },
-           "$type": "field"
+           "type": "PL",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.12",
@@ -3267,7 +3690,10 @@
              "Preadmit Test Indicator"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70087",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.13",
@@ -3291,7 +3717,10 @@
              "Re-admission Indicator"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70092",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.14",
@@ -3315,7 +3744,10 @@
              "Admit Source"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70023",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.15",
@@ -3339,7 +3771,10 @@
              "Ambulatory Status"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70009",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.16",
@@ -3363,7 +3798,10 @@
              "VIP Indicator"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70099",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.17",
@@ -3387,7 +3825,10 @@
              "Admitting Doctor"
             ]
            },
-           "$type": "field"
+           "type": "XCN",
+           "table": "HL70010",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.18",
@@ -3411,7 +3852,10 @@
              "Patient Type"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70018",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.19",
@@ -3432,7 +3876,10 @@
              "Visit Number"
             ]
            },
-           "$type": "field"
+           "type": "CX",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.20",
@@ -3456,7 +3903,10 @@
              "Financial Class"
             ]
            },
-           "$type": "field"
+           "type": "FC",
+           "table": "HL70064",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.21",
@@ -3480,7 +3930,10 @@
              "Charge Price Indicator"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70032",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.22",
@@ -3504,7 +3957,10 @@
              "Courtesy Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70045",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.23",
@@ -3528,7 +3984,10 @@
              "Credit Rating"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70046",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.24",
@@ -3552,7 +4011,10 @@
              "Contract Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70044",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.25",
@@ -3573,7 +4035,10 @@
              "Contract Effective Date"
             ]
            },
-           "$type": "field"
+           "type": "DT",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.26",
@@ -3594,7 +4059,10 @@
              "Contract Amount"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.27",
@@ -3615,7 +4083,10 @@
              "Contract Period"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.28",
@@ -3639,7 +4110,10 @@
              "Interest Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70073",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.29",
@@ -3663,7 +4137,10 @@
              "Transfer to Bad Debt Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70110",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.30",
@@ -3684,7 +4161,10 @@
              "Transfer to Bad Debt Date"
             ]
            },
-           "$type": "field"
+           "type": "DT",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.31",
@@ -3708,7 +4188,10 @@
              "Bad Debt Agency Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70021",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.32",
@@ -3729,7 +4212,10 @@
              "Bad Debt Transfer Amount"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.33",
@@ -3750,7 +4236,10 @@
              "Bad Debt Recovery Amount"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.34",
@@ -3774,7 +4263,10 @@
              "Delete Account Indicator"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70111",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.35",
@@ -3795,7 +4287,10 @@
              "Delete Account Date"
             ]
            },
-           "$type": "field"
+           "type": "DT",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.36",
@@ -3819,7 +4314,10 @@
              "Discharge Disposition"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70112",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.37",
@@ -3843,7 +4341,10 @@
              "Discharged to Location"
             ]
            },
-           "$type": "field"
+           "type": "DLD",
+           "table": "HL70113",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.38",
@@ -3867,7 +4368,10 @@
              "Diet Type"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": "HL70114",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.39",
@@ -3891,7 +4395,10 @@
              "Servicing Facility"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70115",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.40",
@@ -3915,7 +4422,10 @@
              "Bed Status"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70116",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.41",
@@ -3939,7 +4449,10 @@
              "Account Status"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70117",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.42",
@@ -3960,7 +4473,10 @@
              "Pending Location"
             ]
            },
-           "$type": "field"
+           "type": "PL",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.43",
@@ -3981,7 +4497,10 @@
              "Prior Temporary Location"
             ]
            },
-           "$type": "field"
+           "type": "PL",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.44",
@@ -4002,7 +4521,10 @@
              "Admit Date/Time"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.45",
@@ -4023,7 +4545,10 @@
              "Discharge Date/Time"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.46",
@@ -4044,7 +4569,10 @@
              "Current Patient Balance"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.47",
@@ -4065,7 +4593,10 @@
              "Total Charges"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.48",
@@ -4086,7 +4617,10 @@
              "Total Adjustments"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.49",
@@ -4107,7 +4641,10 @@
              "Total Payments"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.50",
@@ -4131,7 +4668,10 @@
              "Alternate Visit ID"
             ]
            },
-           "$type": "field"
+           "type": "CX",
+           "table": "HL70203",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.51",
@@ -4155,7 +4695,10 @@
              "Visit Indicator"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70326",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV1.52",
@@ -4179,7 +4722,10 @@
              "Other Healthcare Provider"
             ]
            },
-           "$type": "field"
+           "type": "XCN",
+           "table": "HL70010",
+           "$type": "field",
+           "elems": []
           }
          ]
         },
@@ -4208,7 +4754,10 @@
              "Prior Pending Location"
             ]
            },
-           "$type": "field"
+           "type": "PL",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.2",
@@ -4232,7 +4781,10 @@
              "Accommodation Code"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": "HL70129",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.3",
@@ -4253,7 +4805,10 @@
              "Admit Reason"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.4",
@@ -4274,7 +4829,10 @@
              "Transfer Reason"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.5",
@@ -4295,7 +4853,10 @@
              "Patient Valuables"
             ]
            },
-           "$type": "field"
+           "type": "ST",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.6",
@@ -4316,7 +4877,10 @@
              "Patient Valuables Location"
             ]
            },
-           "$type": "field"
+           "type": "ST",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.7",
@@ -4340,7 +4904,10 @@
              "Visit User Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70130",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.8",
@@ -4361,7 +4928,10 @@
              "Expected Admit Date/Time"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.9",
@@ -4382,7 +4952,10 @@
              "Expected Discharge Date/Time"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.10",
@@ -4403,7 +4976,10 @@
              "Estimated Length of Inpatient Stay"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.11",
@@ -4424,7 +5000,10 @@
              "Actual Length of Inpatient Stay"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.12",
@@ -4445,7 +5024,10 @@
              "Visit Description"
             ]
            },
-           "$type": "field"
+           "type": "ST",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.13",
@@ -4466,7 +5048,10 @@
              "Referral Source Code"
             ]
            },
-           "$type": "field"
+           "type": "XCN",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.14",
@@ -4487,7 +5072,10 @@
              "Previous Service Date"
             ]
            },
-           "$type": "field"
+           "type": "DT",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.15",
@@ -4511,7 +5099,10 @@
              "Employment Illness Related Indicator"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70136",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.16",
@@ -4535,7 +5126,10 @@
              "Purge Status Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70213",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.17",
@@ -4556,7 +5150,10 @@
              "Purge Status Date"
             ]
            },
-           "$type": "field"
+           "type": "DT",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.18",
@@ -4580,7 +5177,10 @@
              "Special Program Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70214",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.19",
@@ -4604,7 +5204,10 @@
              "Retention Indicator"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70136",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.20",
@@ -4625,7 +5228,10 @@
              "Expected Number of Insurance Plans"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.21",
@@ -4649,7 +5255,10 @@
              "Visit Publicity Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70215",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.22",
@@ -4673,7 +5282,10 @@
              "Visit Protection Indicator"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70136",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.23",
@@ -4694,7 +5306,10 @@
              "Clinic Organization Name"
             ]
            },
-           "$type": "field"
+           "type": "XON",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.24",
@@ -4718,7 +5333,10 @@
              "Patient Status Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70216",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.25",
@@ -4742,7 +5360,10 @@
              "Visit Priority Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70217",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.26",
@@ -4763,7 +5384,10 @@
              "Previous Treatment Date"
             ]
            },
-           "$type": "field"
+           "type": "DT",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.27",
@@ -4787,7 +5411,10 @@
              "Expected Discharge Disposition"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70112",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.28",
@@ -4808,7 +5435,10 @@
              "Signature on File Date"
             ]
            },
-           "$type": "field"
+           "type": "DT",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.29",
@@ -4829,7 +5459,10 @@
              "First Similar Illness Date"
             ]
            },
-           "$type": "field"
+           "type": "DT",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.30",
@@ -4853,7 +5486,10 @@
              "Patient Charge Adjustment Code"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": "HL70218",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.31",
@@ -4877,7 +5513,10 @@
              "Recurring Service Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70219",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.32",
@@ -4901,7 +5540,10 @@
              "Billing Media Code"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70136",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.33",
@@ -4922,7 +5564,10 @@
              "Expected Surgery Date and Time"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.34",
@@ -4946,7 +5591,10 @@
              "Military Partnership Code"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70136",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.35",
@@ -4970,7 +5618,10 @@
              "Military Non-Availability Code"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70136",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.36",
@@ -4994,7 +5645,10 @@
              "Newborn Baby Indicator"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70136",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.37",
@@ -5018,7 +5672,10 @@
              "Baby Detained Indicator"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70136",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.38",
@@ -5042,7 +5699,10 @@
              "Mode of Arrival Code"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": "HL70430",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.39",
@@ -5066,7 +5726,10 @@
              "Recreational Drug Use Code"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": "HL70431",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.40",
@@ -5090,7 +5753,10 @@
              "Admission Level of Care Code"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": "HL70432",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.41",
@@ -5114,7 +5780,10 @@
              "Precaution Code"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": "HL70433",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.42",
@@ -5138,7 +5807,10 @@
              "Patient Condition Code"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": "HL70434",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.43",
@@ -5162,7 +5834,10 @@
              "Living Will Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70315",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.44",
@@ -5186,7 +5861,10 @@
              "Organ Donor Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70316",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.45",
@@ -5210,7 +5888,10 @@
              "Advance Directive Code"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": "HL70435",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.46",
@@ -5231,7 +5912,10 @@
              "Patient Status Effective Date"
             ]
            },
-           "$type": "field"
+           "type": "DT",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.47",
@@ -5252,7 +5936,10 @@
              "Expected LOA Return Date/Time"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.48",
@@ -5273,7 +5960,10 @@
              "Expected Pre-admission Testing Date/Time"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "PV2.49",
@@ -5297,7 +5987,10 @@
              "Notify Clergy Code"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70534",
+           "$type": "field",
+           "elems": []
           }
          ]
         }
@@ -5339,7 +6032,10 @@
            "Order Control"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70119",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.2",
@@ -5360,7 +6056,10 @@
            "Placer Order Number"
           ]
          },
-         "$type": "field"
+         "type": "EI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.3",
@@ -5381,7 +6080,10 @@
            "Filler Order Number"
           ]
          },
-         "$type": "field"
+         "type": "EI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.4",
@@ -5402,7 +6104,10 @@
            "Placer Group Number"
           ]
          },
-         "$type": "field"
+         "type": "EI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.5",
@@ -5426,7 +6131,10 @@
            "Order Status"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70038",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.6",
@@ -5450,7 +6158,10 @@
            "Response Flag"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70121",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.7",
@@ -5471,7 +6182,10 @@
            "Quantity/Timing"
           ]
          },
-         "$type": "field"
+         "type": "TQ",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.8",
@@ -5492,7 +6206,10 @@
            "Parent"
           ]
          },
-         "$type": "field"
+         "type": "EIP",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.9",
@@ -5513,7 +6230,10 @@
            "Date/Time of Transaction"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.10",
@@ -5534,7 +6254,10 @@
            "Entered By"
           ]
          },
-         "$type": "field"
+         "type": "XCN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.11",
@@ -5555,7 +6278,10 @@
            "Verified By"
           ]
          },
-         "$type": "field"
+         "type": "XCN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.12",
@@ -5576,7 +6302,10 @@
            "Ordering Provider"
           ]
          },
-         "$type": "field"
+         "type": "XCN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.13",
@@ -5597,7 +6326,10 @@
            "Enterer's Location"
           ]
          },
-         "$type": "field"
+         "type": "PL",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.14",
@@ -5618,7 +6350,10 @@
            "Call Back Phone Number"
           ]
          },
-         "$type": "field"
+         "type": "XTN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.15",
@@ -5639,7 +6374,10 @@
            "Order Effective Date/Time"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.16",
@@ -5660,7 +6398,10 @@
            "Order Control Code Reason"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.17",
@@ -5681,7 +6422,10 @@
            "Entering Organization"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.18",
@@ -5702,7 +6446,10 @@
            "Entering Device"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.19",
@@ -5723,7 +6470,10 @@
            "Action By"
           ]
          },
-         "$type": "field"
+         "type": "XCN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.20",
@@ -5747,7 +6497,10 @@
            "Advanced Beneficiary Notice Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70339",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.21",
@@ -5768,7 +6521,10 @@
            "Ordering Facility Name"
           ]
          },
-         "$type": "field"
+         "type": "XON",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.22",
@@ -5789,7 +6545,10 @@
            "Ordering Facility Address"
           ]
          },
-         "$type": "field"
+         "type": "XAD",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.23",
@@ -5810,7 +6569,10 @@
            "Ordering Facility Phone Number"
           ]
          },
-         "$type": "field"
+         "type": "XTN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.24",
@@ -5831,7 +6593,10 @@
            "Ordering Provider Address"
           ]
          },
-         "$type": "field"
+         "type": "XAD",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.25",
@@ -5852,7 +6617,10 @@
            "Order Status Modifier"
           ]
          },
-         "$type": "field"
+         "type": "CWE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.26",
@@ -5876,7 +6644,10 @@
            "Advanced Beneficiary Notice Override Reason"
           ]
          },
-         "$type": "field"
+         "type": "CWE",
+         "table": "HL70552",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.27",
@@ -5897,7 +6668,10 @@
            "Filler's Expected Availability Date/Time"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.28",
@@ -5921,7 +6695,10 @@
            "Confidentiality Code"
           ]
          },
-         "$type": "field"
+         "type": "CWE",
+         "table": "HL70177",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.29",
@@ -5945,7 +6722,10 @@
            "Order Type"
           ]
          },
-         "$type": "field"
+         "type": "CWE",
+         "table": "HL70482",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.30",
@@ -5969,7 +6749,10 @@
            "Enterer Authorization Mode"
           ]
          },
-         "$type": "field"
+         "type": "CNE",
+         "table": "HL70483",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "ORC.31",
@@ -5990,7 +6773,10 @@
            "Parent Universal Service Identifier"
           ]
          },
-         "$type": "field"
+         "type": "CWE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         }
        ]
       },
@@ -6019,7 +6805,10 @@
            "Set ID - OBR"
           ]
          },
-         "$type": "field"
+         "type": "SI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.2",
@@ -6040,7 +6829,10 @@
            "Placer Order Number"
           ]
          },
-         "$type": "field"
+         "type": "EI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.3",
@@ -6061,7 +6853,10 @@
            "Filler Order Number"
           ]
          },
-         "$type": "field"
+         "type": "EI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.4",
@@ -6082,7 +6877,10 @@
            "Universal Service Identifier"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.5",
@@ -6103,7 +6901,10 @@
            "Priority - OBR"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.6",
@@ -6124,7 +6925,10 @@
            "Requested Date/Time"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.7",
@@ -6145,7 +6949,10 @@
            "Observation Date/Time"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.8",
@@ -6166,7 +6973,10 @@
            "Observation End Date/Time"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.9",
@@ -6187,7 +6997,10 @@
            "Collection Volume"
           ]
          },
-         "$type": "field"
+         "type": "CQ",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.10",
@@ -6208,7 +7021,10 @@
            "Collector Identifier"
           ]
          },
-         "$type": "field"
+         "type": "XCN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.11",
@@ -6232,7 +7048,10 @@
            "Specimen Action Code"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70065",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.12",
@@ -6253,7 +7072,10 @@
            "Danger Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.13",
@@ -6274,7 +7096,10 @@
            "Relevant Clinical Information"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.14",
@@ -6295,7 +7120,10 @@
            "Specimen Received Date/Time"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.15",
@@ -6316,7 +7144,10 @@
            "Specimen Source"
           ]
          },
-         "$type": "field"
+         "type": "SPS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.16",
@@ -6337,7 +7168,10 @@
            "Ordering Provider"
           ]
          },
-         "$type": "field"
+         "type": "XCN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.17",
@@ -6358,7 +7192,10 @@
            "Order Callback Phone Number"
           ]
          },
-         "$type": "field"
+         "type": "XTN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.18",
@@ -6379,7 +7216,10 @@
            "Placer Field 1"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.19",
@@ -6400,7 +7240,10 @@
            "Placer Field 2"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.20",
@@ -6421,7 +7264,10 @@
            "Filler Field 1"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.21",
@@ -6442,7 +7288,10 @@
            "Filler Field 2"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.22",
@@ -6463,7 +7312,10 @@
            "Results Rpt/Status Chng - Date/Time"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.23",
@@ -6484,7 +7336,10 @@
            "Charge to Practice"
           ]
          },
-         "$type": "field"
+         "type": "MOC",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.24",
@@ -6508,7 +7363,10 @@
            "Diagnostic Serv Sect ID"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70074",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.25",
@@ -6532,7 +7390,10 @@
            "Result Status"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70123",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.26",
@@ -6553,7 +7414,10 @@
            "Parent Result"
           ]
          },
-         "$type": "field"
+         "type": "PRL",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.27",
@@ -6574,7 +7438,10 @@
            "Quantity/Timing"
           ]
          },
-         "$type": "field"
+         "type": "TQ",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.28",
@@ -6595,7 +7462,10 @@
            "Result Copies To"
           ]
          },
-         "$type": "field"
+         "type": "XCN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.29",
@@ -6616,7 +7486,10 @@
            "Parent"
           ]
          },
-         "$type": "field"
+         "type": "EIP",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.30",
@@ -6640,7 +7513,10 @@
            "Transportation Mode"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70124",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.31",
@@ -6661,7 +7537,10 @@
            "Reason for Study"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.32",
@@ -6682,7 +7561,10 @@
            "Principal Result Interpreter"
           ]
          },
-         "$type": "field"
+         "type": "NDL",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.33",
@@ -6703,7 +7585,10 @@
            "Assistant Result Interpreter"
           ]
          },
-         "$type": "field"
+         "type": "NDL",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.34",
@@ -6724,7 +7609,10 @@
            "Technician"
           ]
          },
-         "$type": "field"
+         "type": "NDL",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.35",
@@ -6745,7 +7633,10 @@
            "Transcriptionist"
           ]
          },
-         "$type": "field"
+         "type": "NDL",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.36",
@@ -6766,7 +7657,10 @@
            "Scheduled Date/Time"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.37",
@@ -6787,7 +7681,10 @@
            "Number of Sample Containers *"
           ]
          },
-         "$type": "field"
+         "type": "NM",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.38",
@@ -6808,7 +7705,10 @@
            "Transport Logistics of Collected Sample"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.39",
@@ -6829,7 +7729,10 @@
            "Collector's Comment *"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.40",
@@ -6850,7 +7753,10 @@
            "Transport Arrangement Responsibility"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.41",
@@ -6874,7 +7780,10 @@
            "Transport Arranged"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70224",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.42",
@@ -6898,7 +7807,10 @@
            "Escort Required"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70225",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.43",
@@ -6919,7 +7831,10 @@
            "Planned Patient Transport Comment"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.44",
@@ -6943,7 +7858,10 @@
            "Procedure Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70088",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.45",
@@ -6967,7 +7885,10 @@
            "Procedure Code Modifier"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70340",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.46",
@@ -6991,7 +7912,10 @@
            "Placer Supplemental Service Information"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70411",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.47",
@@ -7015,7 +7939,10 @@
            "Filler Supplemental Service Information"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70411",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.48",
@@ -7039,7 +7966,10 @@
            "Medically Necessary Duplicate Procedure Reason."
           ]
          },
-         "$type": "field"
+         "type": "CWE",
+         "table": "HL70476",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.49",
@@ -7063,7 +7993,10 @@
            "Result Handling"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70507",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "OBR.50",
@@ -7084,7 +8017,10 @@
            "Parent Universal Service Identifier"
           ]
          },
-         "$type": "field"
+         "type": "CWE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         }
        ]
       },
@@ -7113,7 +8049,10 @@
            "Set ID - NTE"
           ]
          },
-         "$type": "field"
+         "type": "SI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NTE.2",
@@ -7137,7 +8076,10 @@
            "Source of Comment"
           ]
          },
-         "$type": "field"
+         "type": "ID",
+         "table": "HL70105",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NTE.3",
@@ -7158,7 +8100,10 @@
            "Comment"
           ]
          },
-         "$type": "field"
+         "type": "FT",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "NTE.4",
@@ -7182,7 +8127,10 @@
            "Comment Type"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70364",
+         "$type": "field",
+         "elems": []
         }
        ]
       },
@@ -7215,7 +8163,10 @@
              }
             ]
            },
-           "$type": "field"
+           "type": null,
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.2",
@@ -7234,7 +8185,10 @@
              }
             ]
            },
-           "$type": "field"
+           "type": null,
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.3",
@@ -7258,7 +8212,10 @@
              "Repeat Pattern"
             ]
            },
-           "$type": "field"
+           "type": "RPT",
+           "table": "HL70335",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.4",
@@ -7279,7 +8236,10 @@
              "Explicit Time"
             ]
            },
-           "$type": "field"
+           "type": "TM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.5",
@@ -7300,7 +8260,10 @@
              "Relative Time and Units"
             ]
            },
-           "$type": "field"
+           "type": "CQ",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.6",
@@ -7321,7 +8284,10 @@
              "Service Duration"
             ]
            },
-           "$type": "field"
+           "type": "CQ",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.7",
@@ -7342,7 +8308,10 @@
              "Start date/time"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.8",
@@ -7363,7 +8332,10 @@
              "End date/time"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.9",
@@ -7387,7 +8359,10 @@
              "Priority"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70485",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.10",
@@ -7408,7 +8383,10 @@
              "Condition text"
             ]
            },
-           "$type": "field"
+           "type": "TX",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.11",
@@ -7429,7 +8407,10 @@
              "Text instruction"
             ]
            },
-           "$type": "field"
+           "type": "TX",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.12",
@@ -7453,7 +8434,10 @@
              "Conjunction"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70427",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.13",
@@ -7474,7 +8458,10 @@
              "Occurrence duration"
             ]
            },
-           "$type": "field"
+           "type": "CQ",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ1.14",
@@ -7495,7 +8482,10 @@
              "Total occurrence's"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           }
          ]
         },
@@ -7524,7 +8514,10 @@
              "Set ID - TQ2"
             ]
            },
-           "$type": "field"
+           "type": "SI",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ2.2",
@@ -7548,7 +8541,10 @@
              "Sequence/Results Flag"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70503",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ2.3",
@@ -7569,7 +8565,10 @@
              "Related Placer Number"
             ]
            },
-           "$type": "field"
+           "type": "EI",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ2.4",
@@ -7590,7 +8589,10 @@
              "Related Filler Number"
             ]
            },
-           "$type": "field"
+           "type": "EI",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ2.5",
@@ -7611,7 +8613,10 @@
              "Related Placer Group Number"
             ]
            },
-           "$type": "field"
+           "type": "EI",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ2.6",
@@ -7635,7 +8640,10 @@
              "Sequence Condition Code"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70504",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ2.7",
@@ -7659,7 +8667,10 @@
              "Cyclic Entry/Exit Indicator"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70505",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ2.8",
@@ -7680,7 +8691,10 @@
              "Sequence Condition Time Interval"
             ]
            },
-           "$type": "field"
+           "type": "CQ",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ2.9",
@@ -7701,7 +8715,10 @@
              "Cyclic Group Maximum Number of Repeats"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "TQ2.10",
@@ -7725,7 +8742,10 @@
              "Special Service Request Relationship"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70506",
+           "$type": "field",
+           "elems": []
           }
          ]
         }
@@ -7759,7 +8779,10 @@
            "Contact Role"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70131",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "CTD.2",
@@ -7780,7 +8803,10 @@
            "Contact Name"
           ]
          },
-         "$type": "field"
+         "type": "XPN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "CTD.3",
@@ -7801,7 +8827,10 @@
            "Contact Address"
           ]
          },
-         "$type": "field"
+         "type": "XAD",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "CTD.4",
@@ -7822,7 +8851,10 @@
            "Contact Location"
           ]
          },
-         "$type": "field"
+         "type": "PL",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "CTD.5",
@@ -7843,7 +8875,10 @@
            "Contact Communication Information"
           ]
          },
-         "$type": "field"
+         "type": "XTN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "CTD.6",
@@ -7867,7 +8902,10 @@
            "Preferred Method of Contact"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70185",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "CTD.7",
@@ -7888,7 +8926,10 @@
            "Contact Identifiers"
           ]
          },
-         "$type": "field"
+         "type": "PLN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         }
        ]
       },
@@ -7923,7 +8964,10 @@
              "Set ID - OBX"
             ]
            },
-           "$type": "field"
+           "type": "SI",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.2",
@@ -7947,7 +8991,10 @@
              "Value Type"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70125",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.3",
@@ -7968,7 +9015,10 @@
              "Observation Identifier"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.4",
@@ -7989,7 +9039,10 @@
              "Observation Sub-ID"
             ]
            },
-           "$type": "field"
+           "type": "ST",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.5",
@@ -8010,7 +9063,10 @@
              "Observation Value"
             ]
            },
-           "$type": "field"
+           "type": "var",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.6",
@@ -8031,7 +9087,10 @@
              "Units"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.7",
@@ -8052,7 +9111,10 @@
              "References Range"
             ]
            },
-           "$type": "field"
+           "type": "ST",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.8",
@@ -8076,7 +9138,10 @@
              "Abnormal Flags"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70078",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.9",
@@ -8097,7 +9162,10 @@
              "Probability"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.10",
@@ -8121,7 +9189,10 @@
              "Nature of Abnormal Test"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70080",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.11",
@@ -8145,7 +9216,10 @@
              "Observation Result Status"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70085",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.12",
@@ -8166,7 +9240,10 @@
              "Effective Date of Reference Range Values"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.13",
@@ -8187,7 +9264,10 @@
              "User Defined Access Checks"
             ]
            },
-           "$type": "field"
+           "type": "ST",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.14",
@@ -8208,7 +9288,10 @@
              "Date/Time of the Observation"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.15",
@@ -8229,7 +9312,10 @@
              "Producer's Reference"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.16",
@@ -8250,7 +9336,10 @@
              "Responsible Observer"
             ]
            },
-           "$type": "field"
+           "type": "XCN",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.17",
@@ -8271,7 +9360,10 @@
              "Observation Method"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.18",
@@ -8292,7 +9384,10 @@
              "Equipment Instance Identifier"
             ]
            },
-           "$type": "field"
+           "type": "EI",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.19",
@@ -8313,7 +9408,10 @@
              "Date/Time of the Analysis"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.20",
@@ -8334,7 +9432,10 @@
              "Performing Organization Name"
             ]
            },
-           "$type": "field"
+           "type": "XON",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.21",
@@ -8355,7 +9456,10 @@
              "Performing Organization Address"
             ]
            },
-           "$type": "field"
+           "type": "XAD",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.22",
@@ -8376,7 +9480,10 @@
              "Performing Organization Medical Director"
             ]
            },
-           "$type": "field"
+           "type": "XCN",
+           "table": null,
+           "$type": "field",
+           "elems": []
           }
          ]
         },
@@ -8405,7 +9512,10 @@
              "Set ID - NTE"
             ]
            },
-           "$type": "field"
+           "type": "SI",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "NTE.2",
@@ -8429,7 +9539,10 @@
              "Source of Comment"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70105",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "NTE.3",
@@ -8450,7 +9563,10 @@
              "Comment"
             ]
            },
-           "$type": "field"
+           "type": "FT",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "NTE.4",
@@ -8474,7 +9590,10 @@
              "Comment Type"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": "HL70364",
+           "$type": "field",
+           "elems": []
           }
          ]
         }
@@ -8505,7 +9624,10 @@
            "Set ID - FT1"
           ]
          },
-         "$type": "field"
+         "type": "SI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.2",
@@ -8526,7 +9648,10 @@
            "Transaction ID"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.3",
@@ -8547,7 +9672,10 @@
            "Transaction Batch ID"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.4",
@@ -8568,7 +9696,10 @@
            "Transaction Date"
           ]
          },
-         "$type": "field"
+         "type": "DR",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.5",
@@ -8589,7 +9720,10 @@
            "Transaction Posting Date"
           ]
          },
-         "$type": "field"
+         "type": "TS",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.6",
@@ -8613,7 +9747,10 @@
            "Transaction Type"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70017",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.7",
@@ -8637,7 +9774,10 @@
            "Transaction Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70132",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.8",
@@ -8658,7 +9798,10 @@
            "Transaction Description"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.9",
@@ -8679,7 +9822,10 @@
            "Transaction Description - Alt"
           ]
          },
-         "$type": "field"
+         "type": "ST",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.10",
@@ -8700,7 +9846,10 @@
            "Transaction Quantity"
           ]
          },
-         "$type": "field"
+         "type": "NM",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.11",
@@ -8721,7 +9870,10 @@
            "Transaction Amount - Extended"
           ]
          },
-         "$type": "field"
+         "type": "CP",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.12",
@@ -8742,7 +9894,10 @@
            "Transaction Amount - Unit"
           ]
          },
-         "$type": "field"
+         "type": "CP",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.13",
@@ -8766,7 +9921,10 @@
            "Department Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70049",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.14",
@@ -8790,7 +9948,10 @@
            "Insurance Plan ID"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70072",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.15",
@@ -8811,7 +9972,10 @@
            "Insurance Amount"
           ]
          },
-         "$type": "field"
+         "type": "CP",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.16",
@@ -8832,7 +9996,10 @@
            "Assigned Patient Location"
           ]
          },
-         "$type": "field"
+         "type": "PL",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.17",
@@ -8856,7 +10023,10 @@
            "Fee Schedule"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70024",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.18",
@@ -8880,7 +10050,10 @@
            "Patient Type"
           ]
          },
-         "$type": "field"
+         "type": "IS",
+         "table": "HL70018",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.19",
@@ -8904,7 +10077,10 @@
            "Diagnosis Code - FT1"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70051",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.20",
@@ -8928,7 +10104,10 @@
            "Performed By Code"
           ]
          },
-         "$type": "field"
+         "type": "XCN",
+         "table": "HL70084",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.21",
@@ -8949,7 +10128,10 @@
            "Ordered By Code"
           ]
          },
-         "$type": "field"
+         "type": "XCN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.22",
@@ -8970,7 +10152,10 @@
            "Unit Cost"
           ]
          },
-         "$type": "field"
+         "type": "CP",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.23",
@@ -8991,7 +10176,10 @@
            "Filler Order Number"
           ]
          },
-         "$type": "field"
+         "type": "EI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.24",
@@ -9012,7 +10200,10 @@
            "Entered By Code"
           ]
          },
-         "$type": "field"
+         "type": "XCN",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.25",
@@ -9036,7 +10227,10 @@
            "Procedure Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70088",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.26",
@@ -9060,7 +10254,10 @@
            "Procedure Code Modifier"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70340",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.27",
@@ -9084,7 +10281,10 @@
            "Advanced Beneficiary Notice Code"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": "HL70339",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.28",
@@ -9108,7 +10308,10 @@
            "Medically Necessary Duplicate Procedure Reason."
           ]
          },
-         "$type": "field"
+         "type": "CWE",
+         "table": "HL70476",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.29",
@@ -9132,7 +10335,10 @@
            "NDC Code"
           ]
          },
-         "$type": "field"
+         "type": "CNE",
+         "table": "HL70549",
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.30",
@@ -9153,7 +10359,10 @@
            "Payment Reference ID"
           ]
          },
-         "$type": "field"
+         "type": "CX",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "FT1.31",
@@ -9174,7 +10383,10 @@
            "Transaction Reference Key"
           ]
          },
-         "$type": "field"
+         "type": "SI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         }
        ]
       },
@@ -9203,7 +10415,10 @@
            "Sponsor Study ID"
           ]
          },
-         "$type": "field"
+         "type": "EI",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "CTI.2",
@@ -9224,7 +10439,10 @@
            "Study Phase Identifier"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         },
         {
          "name": "CTI.3",
@@ -9245,7 +10463,10 @@
            "Study Scheduled Time Point"
           ]
          },
-         "$type": "field"
+         "type": "CE",
+         "table": null,
+         "$type": "field",
+         "elems": []
         }
        ]
       },
@@ -9280,7 +10501,10 @@
              "Set ID - SPM"
             ]
            },
-           "$type": "field"
+           "type": "SI",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.2",
@@ -9301,7 +10525,10 @@
              "Specimen ID"
             ]
            },
-           "$type": "field"
+           "type": "EIP",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.3",
@@ -9322,7 +10549,10 @@
              "Specimen Parent IDs"
             ]
            },
-           "$type": "field"
+           "type": "EIP",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.4",
@@ -9346,7 +10576,10 @@
              "Specimen Type"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70487",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.5",
@@ -9370,7 +10603,10 @@
              "Specimen Type Modifier"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70541",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.6",
@@ -9394,7 +10630,10 @@
              "Specimen Additives"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70371",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.7",
@@ -9418,7 +10657,10 @@
              "Specimen Collection Method"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70488",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.8",
@@ -9439,7 +10681,10 @@
              "Specimen Source Site"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.9",
@@ -9463,7 +10708,10 @@
              "Specimen Source Site Modifier"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70542",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.10",
@@ -9487,7 +10735,10 @@
              "Specimen Collection Site"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70543",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.11",
@@ -9511,7 +10762,10 @@
              "Specimen Role"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70369",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.12",
@@ -9532,7 +10786,10 @@
              "Specimen Collection Amount"
             ]
            },
-           "$type": "field"
+           "type": "CQ",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.13",
@@ -9553,7 +10810,10 @@
              "Grouped Specimen Count"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.14",
@@ -9574,7 +10834,10 @@
              "Specimen Description"
             ]
            },
-           "$type": "field"
+           "type": "ST",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.15",
@@ -9598,7 +10861,10 @@
              "Specimen Handling Code"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70376",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.16",
@@ -9622,7 +10888,10 @@
              "Specimen Risk Code"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70489",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.17",
@@ -9643,7 +10912,10 @@
              "Specimen Collection Date/Time"
             ]
            },
-           "$type": "field"
+           "type": "DR",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.18",
@@ -9664,7 +10936,10 @@
              "Specimen Received Date/Time"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.19",
@@ -9685,7 +10960,10 @@
              "Specimen Expiration Date/Time"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.20",
@@ -9709,7 +10987,10 @@
              "Specimen Availability"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70136",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.21",
@@ -9733,7 +11014,10 @@
              "Specimen Reject Reason"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70490",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.22",
@@ -9757,7 +11041,10 @@
              "Specimen Quality"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70491",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.23",
@@ -9781,7 +11068,10 @@
              "Specimen Appropriateness"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70492",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.24",
@@ -9805,7 +11095,10 @@
              "Specimen Condition"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70493",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.25",
@@ -9826,7 +11119,10 @@
              "Specimen Current Quantity"
             ]
            },
-           "$type": "field"
+           "type": "CQ",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.26",
@@ -9847,7 +11143,10 @@
              "Number of Specimen Containers"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.27",
@@ -9868,7 +11167,10 @@
              "Container Type"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.28",
@@ -9892,7 +11194,10 @@
              "Container Condition"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70544",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "SPM.29",
@@ -9916,7 +11221,10 @@
              "Specimen Child Role"
             ]
            },
-           "$type": "field"
+           "type": "CWE",
+           "table": "HL70494",
+           "$type": "field",
+           "elems": []
           }
          ]
         },
@@ -9945,7 +11253,10 @@
              "Set ID - OBX"
             ]
            },
-           "$type": "field"
+           "type": "SI",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.2",
@@ -9969,7 +11280,10 @@
              "Value Type"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70125",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.3",
@@ -9990,7 +11304,10 @@
              "Observation Identifier"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.4",
@@ -10011,7 +11328,10 @@
              "Observation Sub-ID"
             ]
            },
-           "$type": "field"
+           "type": "ST",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.5",
@@ -10032,7 +11352,10 @@
              "Observation Value"
             ]
            },
-           "$type": "field"
+           "type": "var",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.6",
@@ -10053,7 +11376,10 @@
              "Units"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.7",
@@ -10074,7 +11400,10 @@
              "References Range"
             ]
            },
-           "$type": "field"
+           "type": "ST",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.8",
@@ -10098,7 +11427,10 @@
              "Abnormal Flags"
             ]
            },
-           "$type": "field"
+           "type": "IS",
+           "table": "HL70078",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.9",
@@ -10119,7 +11451,10 @@
              "Probability"
             ]
            },
-           "$type": "field"
+           "type": "NM",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.10",
@@ -10143,7 +11478,10 @@
              "Nature of Abnormal Test"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70080",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.11",
@@ -10167,7 +11505,10 @@
              "Observation Result Status"
             ]
            },
-           "$type": "field"
+           "type": "ID",
+           "table": "HL70085",
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.12",
@@ -10188,7 +11529,10 @@
              "Effective Date of Reference Range Values"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.13",
@@ -10209,7 +11553,10 @@
              "User Defined Access Checks"
             ]
            },
-           "$type": "field"
+           "type": "ST",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.14",
@@ -10230,7 +11577,10 @@
              "Date/Time of the Observation"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.15",
@@ -10251,7 +11601,10 @@
              "Producer's Reference"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.16",
@@ -10272,7 +11625,10 @@
              "Responsible Observer"
             ]
            },
-           "$type": "field"
+           "type": "XCN",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.17",
@@ -10293,7 +11649,10 @@
              "Observation Method"
             ]
            },
-           "$type": "field"
+           "type": "CE",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.18",
@@ -10314,7 +11673,10 @@
              "Equipment Instance Identifier"
             ]
            },
-           "$type": "field"
+           "type": "EI",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.19",
@@ -10335,7 +11697,10 @@
              "Date/Time of the Analysis"
             ]
            },
-           "$type": "field"
+           "type": "TS",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.20",
@@ -10356,7 +11721,10 @@
              "Performing Organization Name"
             ]
            },
-           "$type": "field"
+           "type": "XON",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.21",
@@ -10377,7 +11745,10 @@
              "Performing Organization Address"
             ]
            },
-           "$type": "field"
+           "type": "XAD",
+           "table": null,
+           "$type": "field",
+           "elems": []
           },
           {
            "name": "OBX.22",
@@ -10398,7 +11769,10 @@
              "Performing Organization Medical Director"
             ]
            },
-           "$type": "field"
+           "type": "XCN",
+           "table": null,
+           "$type": "field",
+           "elems": []
           }
          ]
         }
@@ -10433,7 +11807,10 @@
        "Continuation Pointer"
       ]
      },
-     "$type": "field"
+     "type": "ST",
+     "table": null,
+     "$type": "field",
+     "elems": []
     },
     {
      "name": "DSC.2",
@@ -10457,7 +11834,10 @@
        "Continuation Style"
       ]
      },
-     "$type": "field"
+     "type": "ID",
+     "table": "HL70398",
+     "$type": "field",
+     "elems": []
     }
    ]
   }

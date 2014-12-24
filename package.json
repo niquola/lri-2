@@ -11,6 +11,7 @@
     "coffee-loader": "latest",
     "css-loader": "latest",
     "html-loader": "latest",
+    "raw-loader": "latest",
     "url-loader": "latest",
     "json-loader": "latest",
     "less-loader": "latest",
